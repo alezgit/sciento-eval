@@ -156,9 +156,103 @@
       letter-spacing: 0.2px;
     }
 
-    /* ============================================================
-       THEMATIC RESEARCH AREAS (STACKED FULL-WIDTH CARDS)
-       ============================================================ */
+    /* Bibliometric Overview inside Profile Card */
+    .cv-bib-section {
+      margin-top: 22px;
+      padding-top: 18px;
+      border-top: 1px solid rgba(255, 255, 255, 0.22);
+    }
+
+    .cv-bib-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .cv-bib-stat-pill {
+      background: rgba(255, 255, 255, 0.16);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 20px;
+      padding: 5px 14px;
+      font-size: 0.84rem;
+      color: #ffffff;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+    }
+
+    .cv-bib-stat-pill strong {
+      color: #ffffff !important;
+      font-weight: 700;
+    }
+
+    .cv-bib-venues-wrap {
+      margin-top: 8px;
+    }
+
+    .cv-bib-toggle {
+      background: rgba(255, 255, 255, 0.14);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: #ffffff;
+      border-radius: 8px;
+      padding: 6px 14px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    .cv-bib-toggle:hover {
+      background: rgba(255, 255, 255, 0.25);
+      transform: translateY(-1px);
+    }
+
+    .cv-bib-toggle .chevron {
+      transition: transform 0.2s ease;
+    }
+
+    .cv-bib-toggle.open .chevron {
+      transform: rotate(180deg);
+    }
+
+    .cv-bib-venues-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 12px;
+      max-height: 250px;
+      overflow-y: auto;
+      padding-right: 4px;
+    }
+
+    .cv-venue-chip {
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 6px;
+      padding: 4px 10px;
+      font-size: 0.76rem;
+      color: #ffffff;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      line-height: 1.35;
+    }
+
+    .cv-venue-chip .chip-count {
+      background: rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      padding: 1px 7px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #ffffff;
+    }
     .cv-cluster-section {
       margin-bottom: 38px;
     }
@@ -587,6 +681,8 @@
       </div>
       <h1 id="author-name">—</h1>
       <div class="cv-subtitle">Academic Narrative CV</div>
+      <!-- Bibliometric Overview (auto-populated by JS) -->
+      <div id="bib-overview-container" style="display:none;"></div>
     </div>
 
     <!-- Thematic Research Areas -->
@@ -612,21 +708,62 @@
     const RAW_MD = `{{MARKDOWN_CONTENT}}`;
 
     function parseMD(md) {
-      const result = { title: "", themes: [], biography: "" };
+      const result = { title: "", bibliometrics: null, themes: [], biography: "" };
       const normalized = md.replace(/\r\n/g, "\n");
 
       // 1. Extract Author Name
       const titleMatch = normalized.match(/^#\s+(.+)$/m);
       if (titleMatch) {
-        result.title = titleMatch[1].replace(/^Narrative CV:\s*/i, "").trim();
+        result.title = titleMatch[1].replace(/^(Academic\s+)?Narrative\s+CV:\s*/i, "").trim();
       }
 
-      // 2. Split on the hr separator (---) dividing themes and biography
-      const hrIndex = normalized.indexOf("\n---\n");
-      const themeSection = hrIndex !== -1 ? normalized.slice(0, hrIndex) : normalized;
-      const bioSection = hrIndex !== -1 ? normalized.slice(hrIndex + 5) : "";
+      // 2. Extract Bibliometric Overview if present
+      const bibMatch = normalized.match(/##\s+Bibliometric Overview([\s\S]*?)(?=\n##|\n---|$)/i);
+      if (bibMatch) {
+        const bibText = bibMatch[1];
+        const pubsMatch = bibText.match(/\*\*Total Publications Analyzed\*\*:\s*([^\n]+)/i);
+        const timespanMatch = bibText.match(/\*\*Publication Timespan\*\*:\s*([^\n]+)/i);
+        const venuesMatch = bibText.match(/\*\*Unique Journals \/ Venues\*\*:\s*([^\n]+)/i);
 
-      // 3. Parse Themes
+        const journals = [];
+        const journalLines = bibText.match(/^\s*-\s*\*\*([^*]+)\*\*\s*\(([^)]+)\)/gm);
+        if (journalLines) {
+          journalLines.forEach(line => {
+            const m = line.match(/^\s*-\s*\*\*([^*]+)\*\*\s*\(([^)]+)\)/);
+            if (m) {
+              journals.push({ name: m[1].trim(), count: m[2].trim() });
+            }
+          });
+        }
+
+        result.bibliometrics = {
+          totalPubs: pubsMatch ? pubsMatch[1].trim() : "",
+          timespan: timespanMatch ? timespanMatch[1].trim() : "",
+          uniqueVenues: venuesMatch ? venuesMatch[1].trim() : "",
+          journals: journals
+        };
+      }
+
+      // 3. Extract Theme Section and Biography Section
+      const themeStart = normalized.indexOf("## Thematic Research Areas");
+      const hrIndex = normalized.indexOf("\n---\n");
+
+      let themeSection = "";
+      let bioSection = "";
+
+      if (themeStart !== -1) {
+        if (hrIndex !== -1 && hrIndex > themeStart) {
+          themeSection = normalized.slice(themeStart, hrIndex);
+          bioSection = normalized.slice(hrIndex + 5);
+        } else {
+          themeSection = normalized.slice(themeStart);
+        }
+      } else {
+        themeSection = hrIndex !== -1 ? normalized.slice(0, hrIndex) : normalized;
+        bioSection = hrIndex !== -1 ? normalized.slice(hrIndex + 5) : "";
+      }
+
+      // 4. Parse Themes
       const themeBlocks = themeSection.split(/^###\s+/m).slice(1);
       result.themes = themeBlocks.map(block => {
         const lines = block.split("\n");
@@ -655,11 +792,24 @@
         return { name, description, keywords, pubs };
       });
 
-      // 4. Biography section: remove the leading ## Academic Biography heading if present
+      // 5. Biography section: remove the leading ## Academic Biography heading if present
       let bioBody = bioSection.replace(/^##\s+Academic Biography\s*\n/m, "").trim();
       result.biography = bioBody;
 
       return result;
+    }
+
+    function toggleVenues() {
+      const list = document.getElementById("venues-list");
+      const btn = document.getElementById("toggle-venues-btn");
+      if (!list || !btn) return;
+      if (list.style.display === "none" || !list.style.display) {
+        list.style.display = "flex";
+        btn.classList.add("open");
+      } else {
+        list.style.display = "none";
+        btn.classList.remove("open");
+      }
     }
 
     function render(md) {
@@ -669,6 +819,34 @@
       const name = data.title || "Academic Profile";
       document.getElementById("author-name").textContent = name;
       document.title = "ScientoAI — " + name;
+
+      // Render Bibliometrics in Profile Card
+      const bibContainer = document.getElementById("bib-overview-container");
+      if (data.bibliometrics && (data.bibliometrics.totalPubs || data.bibliometrics.journals.length > 0)) {
+        const b = data.bibliometrics;
+        bibContainer.style.display = "block";
+        bibContainer.className = "cv-bib-section";
+        bibContainer.innerHTML = `
+          <div class="cv-bib-stats">
+            ${b.totalPubs ? `<div class="cv-bib-stat-pill"><span>📄</span> Total Publications: <strong>${escHtml(b.totalPubs)}</strong></div>` : ""}
+            ${b.timespan ? `<div class="cv-bib-stat-pill"><span>📅</span> Timespan: <strong>${escHtml(b.timespan)}</strong></div>` : ""}
+            ${b.uniqueVenues ? `<div class="cv-bib-stat-pill"><span>🏛</span> Unique Venues: <strong>${escHtml(b.uniqueVenues)}</strong></div>` : ""}
+          </div>
+          ${b.journals.length > 0 ? `
+            <div class="cv-bib-venues-wrap">
+              <button type="button" class="cv-bib-toggle" id="toggle-venues-btn" onclick="toggleVenues()">
+                <span>View Journals & Venues (${b.journals.length})</span>
+                <svg class="chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="cv-bib-venues-list" id="venues-list" style="display:none;">
+                ${b.journals.map(j => `<span class="cv-venue-chip"><span>${escHtml(j.name)}</span> <span class="chip-count">${escHtml(j.count)}</span></span>`).join("")}
+              </div>
+            </div>
+          ` : ""}
+        `;
+      } else {
+        bibContainer.style.display = "none";
+      }
 
       // Render Themes Stack (Full-width vertical layout)
       const grid = document.getElementById("themes-grid");

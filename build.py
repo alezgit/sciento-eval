@@ -37,7 +37,7 @@ def escape_for_js_template_literal(text: str) -> str:
 def extract_author_name_from_md(md_content: str, fallback: str) -> str:
     m = re.search(r"^#\s+(.+)$", md_content, flags=re.MULTILINE)
     if m:
-        return re.sub(r"^Narrative CV:\s*", "", m.group(1), flags=re.IGNORECASE).strip()
+        return re.sub(r"^(Academic\s+)?Narrative\s+CV:\s*", "", m.group(1), flags=re.IGNORECASE).strip()
     return fallback
 
 

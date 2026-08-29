@@ -156,9 +156,103 @@
       letter-spacing: 0.2px;
     }
 
-    /* ============================================================
-       THEMATIC RESEARCH AREAS (STACKED FULL-WIDTH CARDS)
-       ============================================================ */
+    /* Bibliometric Overview inside Profile Card */
+    .cv-bib-section {
+      margin-top: 22px;
+      padding-top: 18px;
+      border-top: 1px solid rgba(255, 255, 255, 0.22);
+    }
+
+    .cv-bib-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .cv-bib-stat-pill {
+      background: rgba(255, 255, 255, 0.16);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 20px;
+      padding: 5px 14px;
+      font-size: 0.84rem;
+      color: #ffffff;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+    }
+
+    .cv-bib-stat-pill strong {
+      color: #ffffff !important;
+      font-weight: 700;
+    }
+
+    .cv-bib-venues-wrap {
+      margin-top: 8px;
+    }
+
+    .cv-bib-toggle {
+      background: rgba(255, 255, 255, 0.14);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: #ffffff;
+      border-radius: 8px;
+      padding: 6px 14px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    .cv-bib-toggle:hover {
+      background: rgba(255, 255, 255, 0.25);
+      transform: translateY(-1px);
+    }
+
+    .cv-bib-toggle .chevron {
+      transition: transform 0.2s ease;
+    }
+
+    .cv-bib-toggle.open .chevron {
+      transform: rotate(180deg);
+    }
+
+    .cv-bib-venues-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 12px;
+      max-height: 250px;
+      overflow-y: auto;
+      padding-right: 4px;
+    }
+
+    .cv-venue-chip {
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 6px;
+      padding: 4px 10px;
+      font-size: 0.76rem;
+      color: #ffffff;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      line-height: 1.35;
+    }
+
+    .cv-venue-chip .chip-count {
+      background: rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      padding: 1px 7px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #ffffff;
+    }
     .cv-cluster-section {
       margin-bottom: 38px;
     }
@@ -587,6 +681,8 @@
       </div>
       <h1 id="author-name">—</h1>
       <div class="cv-subtitle">Academic Narrative CV</div>
+      <!-- Bibliometric Overview (auto-populated by JS) -->
+      <div id="bib-overview-container" style="display:none;"></div>
     </div>
 
     <!-- Thematic Research Areas -->
@@ -609,162 +705,349 @@
 
   <script>
     // Injected markdown content
-    const RAW_MD = `# Narrative CV: SImone Di Leo
+    const RAW_MD = `# Academic Narrative CV: Simone Di Leo
+
 _Generated on: 2026-08-29_
+
+## Bibliometric Overview
+
+- **Total Publications Analyzed**: 29
+- **Publication Timespan**: 2022 – 2026
+- **Unique Journals / Venues**: 24
+- **Journal List**:
+  - **International Transactions in Operational Research** (3 papers)
+  - **Global Journal of Flexible Systems Management** (2 papers)
+  - **Scientometrics** (2 papers)
+  - **Sustainable Production and Consumption** (2 papers)
+  - **Annals of Operations Research** (1 paper)
+  - **Business Strategy and the Environment** (1 paper)
+  - **Data in Brief** (1 paper)
+  - **Discover Sustainability** (1 paper)
+  - **Energy** (1 paper)
+  - **Energy Nexus** (1 paper)
+  - **Energy Policy** (1 paper)
+  - **Energy Reports** (1 paper)
+  - **European Journal of Operational Research** (1 paper)
+  - **IEEE Engineering Management Review** (1 paper)
+  - **Journal of Informetrics** (1 paper)
+  - **Journal of Knowledge Management** (1 paper)
+  - **Journal of Productivity Analysis** (1 paper)
+  - **Management Decision** (1 paper)
+  - **Scientific Reports** (1 paper)
+  - **Sustainability (Switzerland)** (1 paper)
+  - **Sustainable Development** (1 paper)
+  - **Symmetry** (1 paper)
+  - **Utilities Policy** (1 paper)
+  - **Waste Management and Research** (1 paper)
 
 ## Thematic Research Areas
 
-### Metaknowledge Synthesis for Energy Retail Sustainability
-This theme unifies systematic review methodologies and metaknowledge tools to assess policy sustainability in the retail energy market, emphasizing the synthesis of disparate studies into actionable conceptual frameworks for decision-making. Di Leo’s approach integrates algorithmic tools (e.g., AI chatbots) with expert judgment to address the exponential growth of scholarly publications, transforming raw knowledge into structured insights for policy analysis. The theme underpins his broader interest in benchmarking and efficiency by providing the epistemological and methodological foundations for evaluating complex systems.
+### Multi-Dimensional DEA Performance Benchmarking
+Non-parametric efficiency and productivity analysis applied with a consistent methodological signature: realism over abstraction, explicit conditioning on country- and DMU-level heterogeneity, and the abandonment of convexity assumptions where the underlying technology demands it. The conical FDH estimator of directional distances and Luenberger productivity indices, developed jointly with Daraio and Simar, is the technical foundation on which the country-level waste efficiency, municipal waste efficiency, and ATO-level eco-efficiency applications rest. The work extends DEA into the BSC/intellectual-capital and gender-dimension indicator space, where the relevant performance dimensions are intangible and the variables are proxy indicators. The methodological posture is to construct frontiers that are realistic and context-aware rather than smooth and abstract, and to surface efficiency targets that are actionable for the heterogeneous units under analysis.
 
-**Keywords**: systematic review, conceptual framework, policy sustainability analysis, knowledge extraction, metaknowledge tool
-
-**Key Publications**:
-- Systematic reviews as a metaknowledge tool: caveats and a review of available options (2023)
-- A Framework for the Analysis of the Sustainability of the Energy Retail Market (2022)
-- Pitfalls, benefits, and comparative analysis of artificial intelligence ChatBots in the systematic review process (2026)
-
-### New Public Management and University Administrative Bloat
-This theme critically examines university performance under the New Public Management paradigm, focusing on how administrative expansion and the heterogeneity of non-academic staff influence institutional efficiency. Di Leo’s work reveals that the unobserved heterogeneity of non-academic staff—capturing qualitative and structural differences—plays a more significant role in shaping performance than mere staff size. This challenges conventional assumptions about administrative burdens and highlights the need for nuanced management of non-academic roles to avoid bureaucratic overload while enhancing teaching and research efficiency.
-
-**Keywords**: new public management paradigm, non-academic staff heterogeneity, university performance, administrative burdens, academic time diversion
+**Keywords**: directional distance functions, Luenberger productivity index, free disposal hull (FDH) estimator, non-convex technologies, balanced scorecard (BSC)
 
 **Key Publications**:
-- The role of the non-academic staff heterogeneity in the performance of European universities (2026)
-
-### Data-Envelopment-Based Circular Economy Benchmarking
-This theme centers on the application of multi-criteria decision analysis (e.g., DEA, TOPSIS) and AI-assisted systematic reviews to benchmark waste efficiency, circular economy performance, and university rankings. Di Leo’s work integrates operational research with sustainability metrics, using tools like directional distance measures, Luenberger indices, and conditional efficiency analysis to set viable, context-specific targets. The theme also explores the role of digital tools (e.g., Digital Product Passport) in fostering transparency and collaboration in circular ecosystems, bridging technical efficiency with behavioral and policy dimensions.
-
-**Keywords**: data envelopment analysis (DEA), circular economy, waste efficiency, conditional efficiency analysis, composite indicators
-
-**Key Publications**:
+- A Flexible and Sustainable Analysis of Waste Efficiency at the European Level (2024)
+- Conical Free Disposal Hull estimators of directional distances and Luenberger productivity indices for general technologies (2025)
 - DEA, balanced scorecard and intellectual capital including the gender dimension: A comprehensive list of indicators (2023)
 - Impact of a regulatory target and external factors on the waste efficiency of Italian municipalities (2025)
-- A Flexible and Sustainable Analysis of Waste Efficiency at the European Level (2024)
 - Viable eco-efficiency targets for waste collection communities (2024)
-- Driving EU sustainability: Promoting the circular economy through municipal waste efficiency (2024)
-- Evaluating sustainability in Europe with composite indicators (2025)
-- Integrating knowledge management and digital product passports to foster sustainable and collaborative ecosystems (2026)
-- Climbing university rankings under resources constraints: a combined approach integrating DEA and directed Louvain community detection (2025)
+
+### Cross-Domain Digital Twin Evolution
+A comparative systematization of digital-twin adoption and barriers between industrial predictive-maintenance/supply-chain settings and healthcare surgical-simulation/personalized-medicine contexts. The methodological contribution is the Integrated Flexible Systematic Review (IFSR) framework, which allows two domain-specific SLRs (133 articles in total) to be analyzed jointly so that cross-domain spillovers — industrial real-time analytics and AR/VR influencing healthcare, healthcare's precision and ethics reshaping industry — can be surfaced. The work is methodologically bridge-building: it explicitly applies flexible system management principles to organize cross-domain review in a way that single-domain SLRs cannot.
+
+**Keywords**: digital twin (DT) technology, integrated flexible systematic review (IFSR), cross-domain spillovers, personalized medicine and surgical simulation, predictive maintenance and supply chain resilience
+
+**Key Publications**:
+- An Integrated and Flexible Review Framework to Evaluate the Evolution and Barriers of Digital-Twin Technologies in Industrial and Healthcare Domains (2025)
+
+### Consumer Typology Mining for Circular Electronics
+Behavioural segmentation of end-consumer heterogeneity in sustainable electronics markets, combining statistical tests with PCA and K-means clustering to surface generational, gender, and attitudinal profiles. The 407-respondent Italian survey reveals a gap between environmental awareness and consistent behaviour, with only 29.48% of consumers knowing where to dispose of end-of-life devices and 53.04% reporting domestic accumulation. The contribution is a differentiated strategy architecture — educational for younger, economic for resource-constrained, premium for eco-conscious — that links awareness to circular-economy purchasing and end-of-life strategies.
+
+**Keywords**: principal component analysis + k-means clustering, generational and gender differences, end-of-life management of electronics, consumer purchasing determinants, environmental awareness
+
+**Key Publications**:
+- From Awareness to Action: Consumer Behaviour, Attitudes and Business Strategy in Sustainable and Circular Electronic Devices (2026)
+
+### Epistemology of Multidimensional KBO Benchmarking
+Meta-theoretical scrutiny of ranking knowledge-based organizations, interrogating variable choice, algorithm selection, and the epistemology of quantification in intellectual-capital benchmarking rather than producing another ranking itself. The argument is that each of three meta-choices — algorithm, variables, data — carries substantive implications for ranking distributions, particularly when the dimensions being measured are intangible. The proposed response, technologies of humility and the acceptance of satisficing rather than optimizing, is intellectually serious and countercultural in a field that often treats benchmarks as facts of nature. The empirical illustration compares ranking distributions across multiple efficiency and multi-criteria methods on Italian universities.
+
+**Keywords**: epistemology of quantification and measurement, knowledge-based organizations (KBOs), meta-choice problems, intellectual capital, multidimensional benchmarking
+
+**Key Publications**:
 - Meta-choices in ranking knowledge-based organizations (2022)
 
-### Techno-Economic Viability of Low-Carbon Energy Systems
-This theme unites financial and environmental assessments (e.g., NPV, Monte Carlo, LASSO regression) to evaluate the profitability and sustainability of renewable energy technologies (PV+BES, offshore wind) under policy incentives and market volatility. Di Leo’s work combines discounted cash flow analysis, sensitivity analysis, and scenario modeling to assess the economic resilience of low-carbon investments, while also quantifying their environmental benefits (e.g., greenhouse gas emission reductions). The theme emphasizes the interplay between technological advancements, policy support, and consumer behavior in driving the energy transition.
+### Socio-Technical Energy Transition Acceptance
+Citizen-centred analysis of PV+BES self-consumption adoption, framing policy incentives, household consumption habits, and perception of investment priority as coupled socio-technical drivers of the residential energy transition. Survey data on Italian citizens shows PV investment rated 8.75/10 as a sustainability priority, PV+BES 7.90/10, with 55% of respondents unable to modify their consumption habits and a structural need for BES to enable self-consumption. The contribution is the demonstration that the energy transition is not primarily a financial-engineering problem but a socio-technical one in which household habits, demographic composition, and perception of investment priority are co-equal with policy design.
 
-**Keywords**: net present value (NPV), photovoltaic (PV) systems, battery energy storage (BES), Monte Carlo simulations, sustainable energy transition
+**Keywords**: citizen adoption behavior, PV+BES systems, self-consumption orientation, social acceptance of energy transition, citizens' energy consumption habits
+
+**Key Publications**:
+- Energy policy and citizens' perceptions: The role of PV+BES systems in driving a sustainable energy transition (2026)
+
+### SLR-Based Eco-Efficiency Policy Frameworks
+Synthesis of systematic literature review metaknowledge with DEA-style eco-efficiency and conditional efficiency models applied to EU municipal waste recycling and retail energy markets. The methodological contribution is the integration of review reproducibility and framework granularity as a bridge between methodological and policy-oriented inquiry. The 31-article refined SLR on EU waste management efficiency is paired with a standard DEA across the EU-27 (2017–2021) distinguishing economic, technical, and sustainable models. In retail energy, a 48-paper systematic review with bibliometric analysis is coupled with a conceptual sustainability framework for policy decision evaluation. Conditional efficiency analysis identifies resource allocation pathways that are both eco-efficient and viable given each unit's external context.
+
+**Keywords**: systematic review, eco-efficiency frontier, conditional efficiency analysis, circular material use, policy decision evaluation
+
+**Key Publications**:
+- Driving EU sustainability: Promoting the circular economy through municipal waste efficiency (2024)
+- A Framework for the Analysis of the Sustainability of the Energy Retail Market (2022)
+- Viable eco-efficiency targets for waste collection communities (2024)
+- Systematic reviews as a metaknowledge tool: caveats and a review of available options (2023)
+
+### Completeness-Aware Multi-Source Data Integration
+Architectural and quality-aware treatment of historical data fusion, where the integration layer is designed to propagate source completeness information so end users can interpret availability rather than receiving a single-source view. The proposed method relieves the final user from the need to access single data sources while maximizing the information available at the integration layer. Applied to a research infrastructure for science and innovation studies, the work extends the functions of individual data sources and opens the data infrastructure to additional uses, advancing the conceptual move from data infrastructures towards knowledge infrastructures.
+
+**Keywords**: completeness-aware integration, multi-source data integration, integration layer design, space-time dimensions of historical data, information availability for the user
+
+**Key Publications**:
+- Accounting for quality in data integration systems: a completeness-aware integration approach (2022)
+
+### Industrial PV+BES Economic Viability Modelling
+Quantitative financial-engineering appraisal of renewable self-consumption projects combining NPV/DCF analysis, Monte Carlo and LASSO-based sensitivity, and MCDA to link policy robustness, electricity-price volatility, and emission-reduction valuation in industrial, commercial, and catering settings aligned with SDG 7. The contribution is not a single number but a systematic quantitative framework for evaluating renewable self-consumption investments under realistic policy and market uncertainty. Concrete findings include 425–1590 €/kW PV returns in restaurants with vs. without 40% capital deduction, BES profitability requiring 22–25% (with incentives) or 30–35% (without) self-consumption increases, 548–1831 €/kW PV profitability in commercial buildings, and 1190–1610 €/kW NPV for industrial PV with 45% capital grants reducing discounted payback from over seven to under two years. The work also extends to offshore wind (NPV 195–1324 €/kW, LCOE 125–138 €/MWh).
+
+**Keywords**: net present value, discounted cash flow (DCF), Monte Carlo simulation, LASSO regression, SDG 7 alignment
 
 **Key Publications**:
 - Green restaurants: An economic assessment of solar photovoltaics and energy storage systems (2026)
 - Advancing Sustainable Development Through Integrated Photovoltaic and Battery Energy Storage Systems in Commercial Buildings: A Strategic, Economic, and Environmental Perspective (2025)
 - Economic assessment of battery energy storage in industrial applications: Policy support and self-consumption effects (2026)
-- Energy policy and citizens’ perceptions: The role of PV+BES systems in driving a sustainable energy transition (2026)
 - Towards SDG 7: A Quantitative Sustainability Framework for Evaluating PV+BES Systems in the Low-Carbon Transition (2026)
 - A policy-oriented framework for assessing the economic sustainability of industrial photovoltaic investments (2026)
 - Exploring the economic feasibility of offshore wind energy for sustainable development (2025)
 
-### Heuristic Outlier Detection in University Rankings
-This theme applies network mapping and heuristic statistical approaches to identify outliers in university research landscapes, leveraging administrative and bibliometric data (e.g., Leiden rankings, Scopus) for institutional benchmarking. Di Leo’s work demonstrates how rankings, despite their limitations, can be used as a heuristic base to uncover institutions that perform significantly above or below expectations. This approach enables the identification of case studies for further analysis, informing science policies and alternative funding strategies.
+### NLP Chatbot Benchmarking in SLR Pipelines
+Empirical comparison of AI chatbots against the manual systematic literature review workflow, evaluating retrieval accuracy, methodological compliance, and pitfalls through a single benchmark case study grounded in natural language processing performance. Using a case study focused on the *International Transactions in Operational Research* journal, the research evaluates the benefits and pitfalls of integrating AI across various stages of the SLR process. The contribution is concrete empirical evidence on chatbot performance that closes the loop on a long-standing interest in the instruments of synthesis.
 
-**Keywords**: Leiden rankings, heuristic approach, outlier identification, network mapping, university research landscape
+**Keywords**: AI ChatBots, natural language processing, information retrieval in SLRs, manual SLR workflow, chatbot pitfalls
 
 **Key Publications**:
-- An integrated dataset providing a landscape of the Italian Universities (2023)
-- A heuristic approach based on Leiden rankings to identify outliers: evidence from Italian universities in the European landscape (2023)
+- Pitfalls, benefits, and comparative analysis of artificial intelligence ChatBots in the systematic review process (2026)
 
-### Longitudinal Error Forensics in Time Series
-This theme develops flexible, domain-agnostic techniques to detect and correct hidden errors in large longitudinal datasets, addressing error preservation and trend-fluctuation distortions in evolving data. Di Leo’s approach focuses on distinguishing elusive errors from natural fluctuations, using statistical-mathematical methods to study differences between consecutive values and their symmetries. The theme ensures the reliability of longitudinal data, which is critical for the credibility of efficiency and sustainability analyses.
+### DEA-Louvain University Ranking Strategy
+Hybrid non-parametric efficiency and directed-community-detection framework that models cross-country university performance while identifying realistic ranking targets and financial-resource constraints, integrating national accounting heterogeneity into a predictive ranking frontier. By combining DEA (Banker et al., 1984) with directed Louvain community detection on 318 universities across five countries, the study identifies clusters of universities with similar financial profiles and corresponding ARWU scores, and surfaces benchmarks — universities that have optimized their use of resources — that similar institutions can emulate. The application to Italian universities closes a loop with earlier Italian-university work, but with peer-resolved, resource-constrained possibilities rather than abstract best-practice frontiers.
 
-**Keywords**: longitudinal datasets, hidden errors, time series errors, flexible techniques, error preservation
+**Keywords**: integrated DEA-Louvain methodology, realistic ranking targets, cross-country university comparison, university efficiency frontier, financial resources
+
+**Key Publications**:
+- Climbing university rankings under resources constraints: a combined approach integrating DEA and directed Louvain community detection (2025)
+- Heterogeneity of national accounting systems, world-class universities and financial resources: What are the links? (2024)
+
+### Flexible Hidden-Error Detection in Longitudinal Data
+Statistical signal-versus-error discrimination in repeated-observation time series, developing flexible, generic detection techniques to surface elusive integrity errors that survive standard quality screening. The approach operates at the formal level by studying differences between consecutive values of data series and the symmetries and asymmetries of these differences, applicable regardless of the specific meaning of the data. Implemented on the ETER database for the variables 'Total academic staff' and 'Total number of enrolled students', the work operationalizes the principle that data cleaning is not the application of thresholds but a form of interpretation.
+
+**Keywords**: surviving elusive errors in longitudinal data, flexible detection techniques, longitudinal structure (repeated observations), data integrity of longitudinal datasets, distinguishing error from signal
 
 **Key Publications**:
 - Flexible Techniques to Detect Typical Hidden Errors in Large Longitudinal Datasets (2024)
 
-### Cross-Domain Digital Twin Maturity Assessment
-This theme employs an Integrated Flexible Systematic Review (IFSR) framework to evaluate the adoption barriers and sector-specific maturity of digital twin technologies, bridging industrial and healthcare domains through spillover analysis. Di Leo’s work identifies key trends, enablers, and barriers (e.g., interoperability gaps, regulatory constraints) in DT adoption, highlighting how innovations in one sector (e.g., real-time analytics in industry) can influence practices in another (e.g., healthcare). The theme underscores the potential of DTs to foster adaptive, secure, and interoperable solutions across domains.
+### DPP-Driven Circular Innovation Ecosystems
+Convergence of knowledge management and Digital Product Passport-enabled open innovation, using k-means segmentation, PCA, and logistic regression to map producer/consumer roles within collaborative, sustainability-oriented circular ecosystems. Applied to the Italian fashion and cosmetics sectors, the work reconceptualizes the DPP as a socio-technical and cognitive infrastructure integrating knowledge management, OI, and circular economy principles. The segmentation distinguishes *aware* consumers (attuned to sustainability and digital innovation) from *unaware* consumers (oriented to immediate tangible benefits), with implementation success depending on alignment between DPP technical capabilities, organizational readiness, and consumer engagement.
 
-**Keywords**: digital twin (DT) technologies, cross-domain spillovers, barriers to DT adoption, integrated flexible systematic review (IFSR), sector-specific maturity
-
-**Key Publications**:
-- An Integrated and Flexible Review Framework to Evaluate the Evolution and Barriers of Digital-Twin Technologies in Industrial and Healthcare Domains (2025)
-
-### Completeness-Aware Multi-Source Data Integration
-This theme advances data integration methodologies by incorporating quality- and completeness-aware approaches to handle multi-purpose infrastructures, spatial-temporal dimensions, and heterogeneous data sources. Di Leo’s work proposes a method for accessing data in integrated systems that maximizes information availability while relieving users from the need to pre-process individual sources. This approach extends the functions of individual data sources, moving toward knowledge infrastructures that are both comprehensive and user-friendly.
-
-**Keywords**: completeness-aware approach, data integration systems, multi-purpose data infrastructures, data quality, space and time dimensions
+**Keywords**: digital product passport (DPP), k-means cluster analysis, open innovation, circular and collaborative ecosystems, producer/consumer segmentation
 
 **Key Publications**:
-- Accounting for quality in data integration systems: a completeness-aware integration approach (2022)
+- Integrating knowledge management and digital product passports to foster sustainable and collaborative ecosystems (2026)
 
-### Conical Free Disposal Hull Productivity Estimation
-This theme extends non-parametric efficiency analysis via directional distance measures and Luenberger indices, formalizing productivity estimation for general technologies under conical free disposal hull estimators. Di Leo’s work fills a gap in the literature by presenting a method for defining and estimating directional distances to the cone spanned by the attainable set, applicable to general technologies without imposing convexity. This enables the measurement of distances to non-convex attainable sets and the estimation of Luenberger productivity indices, providing a robust foundation for efficiency analysis in complex, real-world systems.
+### Direct Margin Cost Efficiency in Liberalized Retail Energy
+Non-parametric benchmarking of unbundled cost and revenue structures in Italy's post-2016 liberalized energy retail market, exploiting the unique separation of retail activities from other activities to isolate direct-margin performance. Analyzing 120 retail operators in the Italian electricity and gas markets in 2020, two models assess cost and commercial efficiencies in achieving high direct margin (revenues minus raw materials cost). The finding is a positive effect of size on efficiency, with implications for the structure of competition in liberalized retail energy.
 
-**Keywords**: conical free disposal hull estimators, directional distance measures, Luenberger indices, general technologies, productivity estimation
+**Keywords**: retail market liberalization (2016), direct margin, unbundled cost/revenue structures, cost efficiency model, firm size
 
 **Key Publications**:
-- Conical Free Disposal Hull estimators of directional distances and Luenberger productivity indices for general technologies (2025)
+- A robust benchmarking of direct margin in Italy's energy retail markets (2024)
+
+### Composite SDG Sustainability Ranking for Europe
+Methodological comparison of min-max normalization and TOPSIS for aggregating 76 Eurostat SDG indicators (2022) into comparable EU country sustainability rankings, foregrounding indicator construction over outcome interpretation. The two methods show strong consistency under equal weighting, with Sweden, Denmark, and the Netherlands at the top and Greece, Cyprus, and Bulgaria at the bottom. Disaggregation by dimension reveals Germany leading in environmental, Sweden in social, the Netherlands in economic. The three recommendations — strengthen cohesion policies, promote integrated strategies, invest in data quality — are anchored in the constructive-skeptical posture that pervades the meta-choices work.
+
+**Keywords**: min-max normalization, TOPSIS, 76 SDG indicators (Eurostat 2022), composite indicator comparability, equal vs. differential weighting
+
+**Key Publications**:
+- Evaluating sustainability in Europe with composite indicators (2025)
+
+### Quota-Driven Municipal Waste Collection Efficiency
+Non-parametric cost-efficiency analysis of Italian municipalities against the 65% sorted-waste target of Legislative Decree 152/2006, modeling behavioural heterogeneity and external conditioning factors such as population, population density, city size, and urban economic development. The 275-municipality 2016–2019 analysis shows that municipalities meeting the 65% target demonstrated higher efficiency as costs increased, while those failing the target demonstrated higher inefficiency as costs increased. Policy measures including 'neighbourhood solidarity' are proposed to improve the situation of non-compliant municipalities.
+
+**Keywords**: Legislative Decree 152/2006 (65% sorted waste target), municipal waste collection efficiency, external factors (urbanisation, consumption), quota-based regulation, municipal behavior heterogeneity
+
+**Key Publications**:
+- Impact of a regulatory target and external factors on the waste efficiency of Italian municipalities (2025)
+
+### Heuristic Outlier Detection in University Rankings
+First-pass screening of Italian universities against the European Leiden landscape, using a non-rigorous heuristic to flag outlier institutional profiles while accounting for Web of Science coverage bias and contextual cross-country benchmarking. The Leiden Rankings are explicitly framed as biased and incomplete but useful as a base on which to apply statistical analysis and network mapping to identify outlier institutions for detailed case-study analysis. The application to Politecnico di Bari shows that small teams led by young and promising scholars can push university performance to the top of the LR.
+
+**Keywords**: Leiden Rankings (LR), heuristic (non-rigorous) approach, outlier institutional profiles, Web of Science coverage bias, cross-country benchmarking (European landscape)
+
+**Key Publications**:
+- A heuristic approach based on Leiden rankings to identify outliers: evidence from Italian universities in the European landscape (2023)
+
+### Non-Academic Staff Heterogeneity and University Performance
+Empirical decomposition of how heterogeneous non-academic support functions — admin burden, research services, external-funding competition — shape European university performance under the New Public Management paradigm. Applying a non-parametric approach to 401 European universities and treating non-academic staff heterogeneity as an unobserved latent factor, the study finds that the proportion of non-academic staff is not statistically significant for university efficiency, but their unobserved heterogeneity significantly shifts both the efficient frontier and the inefficiency distribution. Universities with high heterogeneity combined with large administrative shares suffer from bureaucratic overload; universities that integrate diverse professional competences transform heterogeneity into a productive resource.
+
+**Keywords**: non-academic staff heterogeneity, New Public Management paradigm, university performance, external funding competition, administrative burden
+
+**Key Publications**:
+- The role of the non-academic staff heterogeneity in the performance of European universities (2026)
+
+### Integrated Italian University Structural Mapping
+Multi-perspective dataset construction linking Scopus text-mined research keyword profiles with USTAT administrative variables, typological variables (status, type, state_status), staffing and enrollment data, and unique university balance sheet economic variables for all the largest Italian Universities. The contribution is the integration itself: scientific specialization, administrative structure, and economic position are made simultaneously available so that subsequent analyses need not rebuild the substrate from scratch. The dataset, covering 2016–2018 with some sources from October 2022, represents a powerful snapshot of the Italian academic world for comparative analysis.
+
+**Keywords**: Scopus publication metadata, text mining of publication titles/abstracts, administrative and staffing variables, university typology variables, multi-perspective data integration
+
+**Key Publications**:
+- An integrated dataset providing a landscape of the Italian Universities (2023)
 
 ---
 
 ## Academic Biography
 
-## The Intellectual Arc: Bridging Efficiency, Sustainability, and Knowledge Systems
+# Simone Di Leo — An Academic Narrative
 
-Professor Simone Di Leo’s research trajectory is unified by a deep engagement with the measurement, optimization, and synthesis of complex systems—whether in energy markets, circular economies, or academic institutions. His work is animated by a central tension: how to reconcile the technical rigor of quantitative assessment with the messy, context-dependent realities of policy, behavior, and institutional dynamics. This tension has driven him to develop and refine methodologies that are at once robust and adaptive, capable of capturing both the efficiency frontiers of operational systems and the nuanced, often hidden, factors that shape their performance.
+## The Core Question: Quantification Under Conditions of Heterogeneity
 
-### Metaknowledge as a Foundation for Policy and Sustainability
+The work of Simone Di Leo is animated by a single, persistent intellectual tension: how can complex social, organizational, and environmental systems be measured, benchmarked, and compared when the units under analysis are intrinsically heterogeneous, when the relevant dimensions of performance resist straightforward observation, and when the very act of measurement is itself a contested act of construction? Across an unusually broad research portfolio — spanning efficiency analysis of Italian municipalities, the financial appraisal of photovoltaic and battery storage systems, the epistemology of university rankings, and the architectural design of historical data infrastructures — Di Leo has consistently returned to this question rather than retreating into methodological silos. The throughline is not a domain but a stance: quantitative rigor deployed self-consciously, with the awareness that every dataset is an artefact and every frontier is a constructed boundary.
 
-Di Leo’s early and enduring commitment to **metaknowledge synthesis** establishes a methodological bedrock for his broader research program. His work in this area—exemplified by *Systematic reviews as a metaknowledge tool: caveats and a review of available options (2023)* and *A Framework for the Analysis of the Sustainability of the Energy Retail Market (2022)*—centers on the systematic extraction, integration, and visualization of knowledge from disparate scholarly sources. Here, he does not merely apply systematic review techniques but interrogates their limits and potentials, advocating for hybrid approaches that combine algorithmic tools (e.g., AI chatbots for information retrieval) with domain expertise. This stance enables a critical engagement with policy sustainability, particularly in the retail energy sector, where he constructs **conceptual frameworks** that map technical, economic, and environmental impacts of policy decisions. The metaknowledge lens underpins his ability to navigate the exponential growth of electronic publications, transforming raw data into actionable insights for decision-makers.
+This stance becomes visible first in the methodological commitments, then in the empirical applications, and finally in the meta-theoretical reflections that bookend the trajectory.
 
-This thematic arc evolves into a broader preoccupation with **benchmarking and efficiency analysis**, where the tools of metaknowledge—comprehensive identification, synthesis, and state-of-the-art assessments—are operationalized to evaluate the sustainability of complex systems. The transition is not linear but dialectical: the challenges of synthesizing knowledge in one domain (e.g., energy policy) reveal the need for more sophisticated analytical frameworks in others (e.g., waste management, university performance).
+## From Data Plumbing to Knowledge Infrastructures
 
-### Efficiency as a Multidimensional Construct: From Waste to Universities
+Di Leo's earliest work is grounded in the unglamorous but foundational problem of data quality. In "Accounting for quality in data integration systems: a completeness-aware integration approach" (2022), co-authored with Cinzia Daraio and Monica Scannapieco, the argument is that historical, multi-source data systems — those spanning space and time — cannot be treated as if they were single-source repositories. The proposed solution is architectural: the integration layer must propagate completeness information so that the final user, rather than confronting the burden of accessing each constituent database, encounters a layer that is *by design* as complete as possible and that discloses its own availability. Applied to a research infrastructure for science and innovation studies, the work advances the case for moving from data infrastructures towards *knowledge infrastructures* — a conceptual move that foreshadows much of what follows.
 
-A second major arc in Di Leo’s work is the **application of non-parametric efficiency analysis**, particularly Data Envelopment Analysis (DEA) and its extensions, to evaluate performance in diverse contexts. His contributions here are both technical and substantive. Technically, he advances the frontier of efficiency measurement through innovations such as **conical free disposal hull estimators** (*Conical Free Disposal Hull estimators of directional distances and Luenberger productivity indices for general technologies*, 2025), which allow for the estimation of directional distances and productivity indices without imposing convexity assumptions. This methodological rigor enables more flexible and realistic assessments of performance in **general technologies**, a critical step forward in operational research.
+This is not a peripheral concern. It establishes a methodological disposition: that the construction of the data substrate is itself a substantive intellectual act, and that the user's interpretive capacity depends on what the system makes visible and what it occludes. The same disposition reappears later in "Flexible Techniques to Detect Typical Hidden Errors in Large Longitudinal Datasets" (2024), with Renato Bruni and Daraio, where the problem shifts from inter-source integration to intra-source temporal integrity. Here, the work is on *elusive* errors — those that survive generic quality screening because they mimic the natural signal of trends, fluctuations, and structural breaks. The proposed technique is generic in form (a system of indicators analyzing differences between consecutive values and their symmetries) but conceptually exacting: the goal is to distinguish error from genuine evolution rather than to flatten one into the other. Implemented on the ETER database of European Higher Education institutions, the approach operationalizes the principle that data cleaning is not the application of thresholds but a form of interpretation.
 
-Substantively, Di Leo deploys these tools to tackle pressing sustainability challenges. In *Impact of a regulatory target and external factors on the waste efficiency of Italian municipalities (2025)*, he evaluates how regulatory targets (e.g., the 65% sorted waste collection mandate) influence the cost efficiency of waste management, revealing that municipalities meeting the target demonstrate higher efficiency as costs rise, while those falling short exhibit the opposite. This work is not isolated; it connects to broader efforts to benchmark **circular economy performance** at the European level (*A Flexible and Sustainable Analysis of Waste Efficiency at the European Level*, 2024; *Driving EU sustainability: Promoting the circular economy through municipal waste efficiency*, 2024), where he integrates DEA with conditional efficiency analysis to set **viable eco-efficiency targets** that account for external factors like population and economic development. Here, efficiency analysis is not an abstract exercise but a means to inform policy, fostering collaboration among municipalities and optimizing waste management systems.
+The data-infrastructure strand also surfaces in "An integrated dataset providing a landscape of the Italian Universities" (2023), with Bruni, Daraio, Ghamiloo, and Bianchi, where the deliverable is a multi-perspective dataset linking Scopus-mined research keyword profiles to USTAT administrative variables and unique university balance sheets. The contribution is the integration itself: scientific specialization, administrative structure, and economic position are made simultaneously available so that subsequent analyses need not rebuild the substrate from scratch.
 
-The efficiency arc extends into the **university sector**, where Di Leo examines the interplay between financial resources, administrative structures, and performance. In *Climbing university rankings under resources constraints: a combined approach integrating DEA and directed Louvain community detection (2025)*, he combines DEA with network analysis to identify realistic ranking targets for universities based on their financial profiles. This work critiques the simplistic notion that more resources alone drive better rankings, instead emphasizing **financial efficiency** and the strategic allocation of existing resources. Similarly, *The role of the non-academic staff heterogeneity in the performance of European universities (2026)* delves into the **New Public Management paradigm**, revealing how the unobserved heterogeneity of non-academic staff—rather than their sheer numbers—shapes university efficiency. This challenges conventional wisdom, showing that administrative expansion can either enhance or hinder performance depending on how heterogeneity is managed.
+## Benchmarking Knowledge-Based Organizations: The Meta-Theoretical Turn
 
-### Sustainability as a Techno-Economic and Behavioral Challenge
+Where the data-infrastructure work is technical in register, the work on university benchmarking is where Di Leo's epistemological commitments come most directly into view. "Meta-choices in ranking knowledge-based organizations" (2022), with Daraio, Iazzolino, Laise, and Coniglio, is not another ranking. It is a critique *of* ranking, organized around three meta-choices that precede any quantitative exercise: the choice of algorithm, the choice of variables, and the choice of data. The argument is that each of these choices carries substantive implications for the resulting ranking distribution, and that intellectual capital — Human, Structural, Relational — is particularly vulnerable to such choices precisely because its dimensions are not directly observable.
 
-Di Leo’s research on **low-carbon energy systems** represents a synthesis of his methodological and substantive interests. Here, he evaluates the **techno-economic viability** of renewable energy technologies (PV, BES, offshore wind) through a combination of financial tools (NPV, Monte Carlo simulations, LASSO regression) and environmental assessments. In *Green restaurants: An economic assessment of solar photovoltaics and energy storage systems (2026)*, he demonstrates that PV systems are profitable in Italy, with incentives significantly improving returns, while BES profitability hinges on self-consumption levels. This study exemplifies his **multicriteria decision analysis** approach, where economic, environmental, and strategic dimensions are integrated to guide policy and investment decisions.
+The empirical illustration, again on Italian universities, compares ranking distributions obtained from several efficiency and multi-criteria methods, demonstrating that the *implementation problem* in performance measurement is not a matter of insufficient technique but of unavoidable subjectivity when many evaluation criteria coexist. The proposed response — *technologies of humility*, and the acceptance of *satisficing* rather than optimizing — is intellectually serious and somewhat countercultural in a field that often treats benchmarks as if they were facts of nature.
 
-The energy transition theme is further enriched by his exploration of **citizen perceptions and behavior** (*Energy policy and citizens’ perceptions: The role of PV+BES systems in driving a sustainable energy transition*, 2026; *From Awareness to Action: Consumer Behaviour, Attitudes and Business Strategy in Sustainable and Circular Electronic Devices*, 2026). Here, Di Leo moves beyond technical and economic analyses to incorporate social dimensions, revealing how public attitudes toward self-consumption, incentives, and sustainability shape the adoption of renewable technologies. This behavioral turn complements his earlier work on **circular economy business models** (*Integrating knowledge management and digital product passports to foster sustainable and collaborative ecosystems*, 2026), where he examines how tools like the **Digital Product Passport (DPP)** can drive transparency and collaboration in supply chains, particularly in fashion and cosmetics.
+This meta-theoretical commitment is not abandoned when the work moves to concrete ranking exercises; it conditions them. "A heuristic approach based on Leiden rankings to identify outliers" (2023), with Daraio and Loet Leydesdorff, frames the use of Leiden Rankings as a *first-pass heuristic* — explicitly non-rigorous, explicitly biased by Web of Science coverage, but useful for flagging institutional profiles that warrant deeper investigation. The honest framing is the point: outliers are to be analyzed as case studies, not penalized or celebrated on the strength of a single instrument.
 
-### Data, Errors, and the Infrastructure of Knowledge
+## Efficiency Analysis as Realistic Target-Setting
 
-A parallel but equally critical thread in Di Leo’s work addresses the **infrastructural and methodological challenges** of data-driven research. His contributions to **longitudinal error forensics** (*Flexible Techniques to Detect Typical Hidden Errors in Large Longitudinal Datasets*, 2024) develop domain-agnostic techniques to identify and correct hidden errors in time-series data, preserving trends and natural fluctuations while isolating elusive errors. This work is foundational, ensuring the reliability of the very datasets that underpin his efficiency and sustainability analyses.
+The bulk of Di Leo's empirical work sits inside the non-parametric efficiency tradition, but the methodological signature is consistent: realism over abstraction, conditioning over assumption, and explicit attention to the heterogeneity that conventional DEA tends to suppress.
 
-Similarly, his research on **multi-source data integration** (*Accounting for quality in data integration systems: a completeness-aware integration approach*, 2022) and **heuristic outlier detection** (*A heuristic approach based on Leiden rankings to identify outliers: evidence from Italian universities in the European landscape*, 2023) addresses the practical challenges of working with heterogeneous, incomplete, or biased data. In the former, he proposes a **completeness-aware approach** to maximize information availability in integrated systems, while in the latter, he leverages **Leiden Rankings** and network mapping to identify outlying institutions in the academic landscape. These methodological innovations are not mere technical footnotes; they are essential to the credibility and applicability of his broader research program.
+"A Flexible and Sustainable Analysis of Waste Efficiency at the European Level" (2024), with D'Adamo, Daraio, and Simar, applies directional DEA at the country level with waste generated as input, landfilled and incinerated waste as bad output, and recycled waste as good output. Country-level social and economic heterogeneity is built directly into the targets, producing five distinct performance groups rather than a single league table. "Impact of a regulatory target and external factors on the waste efficiency of Italian municipalities" (2025), with Daraio and Simar, brings the same logic to the micro level: 275 Italian municipalities over 2016–2019, against the 65% sorted-collection target of Legislative Decree 152/2006. The non-parametric estimation reveals that municipalities meeting the target are more cost-efficient as costs rise, and identifies population and urban economic development as decisive conditioning factors — with implications for the design of place-specific policy measures such as the proposed *neighbourhood solidarity*.
 
-### Digital Twins and the Future of Cross-Domain Innovation
+"Viable eco-efficiency targets for waste collection communities" (2024), with Daraio and Simar, extends the conditioning logic to ATO-level organization. The framing is again explicit: targets are *viable* only when they benchmark each municipality against others with similar external contexts, so that the path to the eco-efficiency frontier is realistic and actionable. "Driving EU sustainability: Promoting the circular economy through municipal waste efficiency" (2024), with D'Adamo, Daraio, Gastaldi, and Rossi, couples a systematic literature review — refined from 216 to 31 articles through double screening — with a standard DEA across the EU-27 over 2017–2021, distinguishing economic, technical, and sustainable models, and surfacing the fragmented geography of European circular performance.
 
-Di Leo’s most recent work on **digital twin (DT) technologies** (*An Integrated and Flexible Review Framework to Evaluate the Evolution and Barriers of Digital-Twin Technologies in Industrial and Healthcare Domains*, 2025) represents a bold extension of his interests into the frontier of **cross-domain innovation**. Here, he employs an **Integrated Flexible Systematic Review (IFSR)** framework to analyze DT adoption in industrial and healthcare sectors, identifying sector-specific maturity levels, barriers (e.g., interoperability gaps, regulatory constraints), and **spillover effects** between domains. This work synthesizes his long-standing commitments to systematic knowledge synthesis, efficiency analysis, and sustainability, now applied to a transformative technology with the potential to reshape industries and healthcare systems alike.
+The technical-methodological core of this strand is "Conical Free Disposal Hull estimators of directional distances and Luenberger productivity indices for general technologies" (2025), with Daraio and Simar. The contribution is to extend directional distance measurement to the *cone spanned by the attainable set* — necessary for defining Luenberger indices under general (non-convex) technologies. The result is a method that allows inference on productivity indices and their decompositions without imposing convexity, accompanied by simulated data and a real-data application. This is the foundation on which the applied country- and municipality-level work rests, and it represents Di Leo's most sustained engagement with the formal apparatus of efficiency measurement.
 
-### Synthesis: A Cohesive Vision
+The same efficiency lens is applied, with different instruments, to retail energy. "A robust benchmarking of direct margin in Italy's energy retail markets" (2024), with Chicca, Daraio, Guerrini, and Scarcella, exploits the post-2016 Italian separation of retail activities to isolate direct-margin performance among 120 operators in 2020, finding a positive effect of size on efficiency. "A Framework for the Analysis of the Sustainability of the Energy Retail Market" (2022), with Chicca, Daraio, Guerrini, and Scarcella, complements the quantitative benchmarking with a systematic review and bibliometric analysis of 48 papers, producing a conceptual framework for evaluating technical, economic, and environmental impacts in retail energy policy.
 
-Across these arcs, Di Leo’s research is characterized by a **methodological pluralism**—DEA, TOPSIS, Monte Carlo simulations, systematic reviews, network analysis—that is always in service of substantive questions: How can we measure and improve the efficiency of complex systems? How do policy, behavior, and technology interact to shape sustainability outcomes? And how can we ensure that the data and methods we rely on are both rigorous and context-aware? His work on **AI chatbots in systematic reviews** (*Pitfalls, benefits, and comparative analysis of artificial intelligence ChatBots in the systematic review process*, 2026) even turns a critical eye on the tools of metaknowledge itself, evaluating their efficacy and limitations in the research process.
+## The Energy Transition as Socio-Technical System
 
-What unifies these diverse contributions is a commitment to **pragmatic, policy-relevant scholarship**. Whether assessing the economic viability of offshore wind farms (*Exploring the economic feasibility of offshore wind energy for sustainable development*, 2025), benchmarking the direct margins of energy retail operators (*A robust benchmarking of direct margin in Italy's energy retail markets*, 2024), or evaluating the links between financial resources and university rankings (*Heterogeneity of national accounting systems, world-class universities and financial resources: What are the links?*, 2024), Di Leo’s work is driven by a desire to bridge the gap between academic rigor and real-world impact. His intellectual journey is not one of linear progression but of **recursive deepening**, where each thematic arc informs and enriches the others, creating a cohesive vision of how to understand, measure, and improve the systems that shape our sustainable future.
+A second major arc moves the focus from efficiency benchmarking to the financial engineering and behavioural analysis of the energy transition. Here Di Leo's collaborators include D'Adamo and Gastaldi as recurring partners, and the methodological signature is integration: financial indicators, sensitivity analysis, scenario analysis, Monte Carlo simulation, and survey-based behavioural analysis are combined in ways that resist disciplinary boundary work.
+
+The financial-engineering core is densely developed. "Green restaurants: An economic assessment of solar photovoltaics and energy storage systems" (2026), with D'Adamo, Gastaldi, and Maccallini, evaluates PV and BES profitability in the catering sector under Italian policy conditions, using NPV, DCF, LASSO regression, break-even analysis, and Monte Carlo simulation. The result is a sharp, policy-sensitive finding: PV is profitable in both incentive and no-incentive contexts, but incentives shift returns from 425 to 1590 €/kW, while BES profitability requires a self-consumption increase of 22–25% with incentives and 30–35% without. "Advancing Sustainable Development Through Integrated Photovoltaic and Battery Energy Storage Systems in Commercial Buildings" (2025), with Antonini, D'Adamo, Gastaldi, and Scarcelli, applies MCDA, DCF, and emission-reduction quantification to commercial buildings, with experts recommending a 50% tax deduction. "Economic assessment of battery energy storage in industrial applications" (2026), with D'Adamo, Fabbi, Gastaldi, and Kalogirou, evaluates a 1500 kWh BES integrated with 1 MW PV at a pharmaceutical plant, finding that profitability requires the simultaneous alignment of public support, low CAPEX, and substantial self-consumption enhancement. "Towards SDG 7: A Quantitative Sustainability Framework for Evaluating PV+BES Systems in the Low-Carbon Transition" (2026), with D'Adamo, Gastaldi, and Scarcelli, adds greenhouse gas emission reduction value to the NPV/LASSO framework, using a Rome shopping mall as case study. "A policy-oriented framework for assessing the economic sustainability of industrial photovoltaic investments" (2026), with D'Adamo, Fabbi, and Gastaldi, demonstrates a 1 MW industrial PV case where a 45% capital grant raises NPV from 1190 to 1610 €/kW and reduces discounted payback from over seven to under two years, with monetized CO2 avoidance of approximately 37,000–63,000 €.
+
+"Exploring the economic feasibility of offshore wind energy for sustainable development" (2025), with D'Adamo, Gastaldi, Ozturk, and Terzi di Bergamo, broadens the technological perimeter: NPV ranges from 195 to 1324 €/kW, IRR 9–15%, LCOE 125–138 €/MWh, with selling price, energy inflation rate, and capacity factor as the key drivers. Across these studies, the contribution is not a single number but a *systematic quantitative framework* for evaluating renewable self-consumption investments under realistic policy and market uncertainty.
+
+The behavioural counterpart is "Energy policy and citizens' perceptions: The role of PV+BES systems in driving a sustainable energy transition" (2026), with D'Adamo, Fabbi, Gastaldi, and Uricchio. Using survey data on Italian citizens, the study finds PV investment rated 8.75/10 as a sustainability priority, PV+BES 7.90/10, with 55% of respondents unable to modify their consumption habits — and thus a structural need for BES to enable self-consumption. Self-consumption outranks incentives in citizen priorities, and cluster analysis identifies the profiles most receptive to industrial-context adoption. The implication is that the energy transition is not primarily a financial-engineering problem but a socio-technical one in which household habits, demographic composition, and perception of investment priority are co-equal with policy design.
+
+## Heterogeneity, Segmentation, and the Circular Consumer
+
+The behavioural and segmentation logic developed for energy citizens extends, in Di Leo's work, to two circular-economy domains where consumer heterogeneity is the central challenge.
+
+"From Awareness to Action: Consumer Behaviour, Attitudes and Business Strategy in Sustainable and Circular Electronic Devices" (2026), with D'Adamo, De Meester, Gastaldi, and Lunadei, analyses 407 Italian respondents through statistical tests, PCA, and K-means clustering. The findings are precise: good environmental awareness does not consistently translate into behaviour; only 29.48% of consumers know where to dispose of end-of-life devices; 53.04% report domestic accumulation; generational patterns distinguish younger (interested in design, less responsible in disposal) from older consumers (more aware, more informed); and economic incentives (30.71%) are the most effective lever. The implication is a differentiated strategy architecture — educational, economic, and premium — rather than a single policy instrument.
+
+"Integrating knowledge management and digital product passports to foster sustainable and collaborative ecosystems" (2026), with Becchi, D'Adamo, Gastaldi, Grosso, and Trusiani, extends the same methodological apparatus — k-means, PCA, logistic regression — to the fashion and cosmetics industries. The Digital Product Passport is reconceptualized as a socio-technical and cognitive infrastructure that embeds open innovation, knowledge management, and circular economy principles. The segmentation distinguishes *aware* consumers (attuned to sustainability and digital innovation) from *unaware* consumers (oriented to immediate tangible benefits), with implementation success depending on alignment between DPP technical capabilities, organizational readiness, and consumer engagement.
+
+## Universities as Objects of Structural and Comparative Analysis
+
+The university as a unit of analysis returns throughout Di Leo's work, but with shifting instruments and shifting questions. Where the meta-choices paper is epistemological and the Leiden-outliers paper is heuristic, two later studies are quantitative-comparative.
+
+"The role of the non-academic staff heterogeneity in the performance of European universities" (2026), with Avenali, Daraio, and Wolszczak-Derlacz, applies a non-parametric approach to 401 European universities under the New Public Management paradigm, treating non-academic staff heterogeneity as an unobserved latent factor. The empirical finding is that the *proportion* of non-academic staff is not statistically significant for university efficiency, but their *unobserved heterogeneity* — capturing qualitative and structural differences beyond size and composition — significantly shifts both the efficient frontier and the inefficiency distribution. Universities with high heterogeneity combined with large administrative shares suffer from bureaucratic overload; universities that effectively integrate diverse professional competences transform heterogeneity into a productive resource. The finding reframes the long-running debate on the university's administrative apparatus.
+
+"Heterogeneity of national accounting systems, world-class universities and financial resources" (2024), with Avenali, Daraio, and Wolszczak-Derlacz, focuses on the relationship between financial resources, the heterogeneous national accounting systems that report them, and the Shanghai Ranking tier. The result is a predictive model linking financial resources to ranking tier, and a stark policy implication: concentrating resources on a small number of already-ranked universities may be a necessary condition for international competitiveness, while proportional distribution does not affect the global ranking game.
+
+"Climbing university rankings under resources constraints" (2025), with Avenali, Daraio, and Wolszczak-Derlacz, brings the methodological apparatus of the efficiency arc to the university ranking problem. By combining DEA with directed Louvain community detection on 318 universities across five countries, the study identifies clusters of universities with similar financial profiles and corresponding ARWU scores, and surfaces benchmarks — universities that have optimized their use of resources — that similar institutions can emulate. The application to Italian universities closes a loop with the earlier Italian-university work, but with a different epistemic posture: the targets are not abstract best-practice frontiers but peer-resolved, resource-constrained possibilities.
+
+## Crossing the Digital Twin Divide: Methodological Bridge-Building
+
+"An Integrated and Flexible Review Framework to Evaluate the Evolution and Barriers of Digital-Twin Technologies in Industrial and Healthcare Domains" (2025), with Daraio and Orsini, develops the Integrated Flexible Systematic Review (IFSR) framework to analyze digital twin adoption across two otherwise siloed sectors. Drawing on 133 rigorously selected articles, the study identifies industrial maturity (predictive maintenance, supply-chain resilience, smart manufacturing) and healthcare emergence (personalized medicine, surgical simulation, patient-specific diagnostics), and — critically — the cross-domain spillovers through which industrial innovations in real-time analytics, AR/VR, and federated learning are beginning to influence healthcare, while healthcare's demands for precision and ethics are reshaping industrial DT practice. The barrier inventory — interoperability gaps, regulatory constraints, computational challenges — is differentiated by sector. The methodological contribution is to demonstrate that flexible system management principles can organize a cross-domain review in a way that single-domain SLRs cannot.
+
+## Composite Indicators and the Construction of Sustainability Rankings
+
+"Evaluating sustainability in Europe with composite indicators" (2025), with D'Adamo, Gastaldi, and Paris, applies min-max normalization and TOPSIS to 76 Eurostat SDG indicators for 2022, comparing equal and differential weighting schemes. The methodological finding — strong consistency between the two methods under equal weighting, with Sweden, Denmark, and the Netherlands at the top and Greece, Cyprus, and Bulgaria at the bottom — is paired with disaggregation by dimension (Germany in environmental, Sweden in social, the Netherlands in economic). The three recommendations — strengthen cohesion, promote integrated strategies, improve data quality — are anchored in the same constructive-skeptical posture that pervades the meta-choices work: composite indicators are powerful but constructed, and their construction is the methodological work that matters.
+
+## Systematic Reviews as Metaknowledge, and AI as a New Instrument
+
+Two final strands address the methodology of synthesis itself. "Systematic reviews as a metaknowledge tool" (2023), with Avenali, Daraio, Matteucci, and Nepomuceno, addresses the exponential growth of scholarly publications and the proliferation of review software tools, analyzing coverage of the journal *International Transactions in Operational Research* to demonstrate that domain expert-based selection and tool-assisted review are complementary rather than substitutable. The argument is that good systematic review relies on the intelligent combination of the latest tools with domain expertise.
+
+"Pitfalls, benefits, and comparative analysis of artificial intelligence ChatBots in the systematic review process" (2026), with Daraio and Ferazzoli, extends this analysis empirically through a case study on the *International Transactions in Operational Research* journal, benchmarking AI chatbots against the manual SLR workflow. The contribution is concrete evidence on retrieval accuracy, methodological compliance, and pitfalls across SLR stages — a study that closes the loop on Di Leo's long-standing interest in the *instruments* of synthesis by examining the newest such instrument with the same evaluative posture.
+
+## Intellectual Trajectory: A Unifying Reading
+
+What holds these eighteen thematic strands together is not a single domain but a coherent methodological disposition. The work begins with the problem of data quality — the recognition that integrated systems must be designed to disclose their own completeness — and proceeds, in successive arcs, to the construction of efficiency frontiers that respect heterogeneity, the financial appraisal of renewable systems under realistic policy and market conditions, the analysis of consumer and citizen heterogeneity in circular and energy contexts, the meta-theoretical scrutiny of benchmarking instruments, the cross-domain synthesis of digital twin literatures, the construction of composite sustainability indicators, and the methodological evaluation of AI-assisted review.
+
+Each arc inherits the commitments of the preceding ones. The data-quality work establishes that the user's interpretive capacity depends on what the system makes visible. The efficiency work applies this disposition to production frontiers, insisting on conditioning variables and non-convex technologies rather than smooth convex approximations. The meta-choices work extends it to the measurement of intellectual capital, where every variable and algorithm choice carries substantive implications. The energy-transition work deploys the same realism in financial engineering, with self-consumption, policy risk, and market volatility treated as structural rather than residual. The consumer-typology work, finally, translates the disposition into the domain of sustainable behaviour, where heterogeneity is not noise but signal.
+
+The result is a research program in which the central tension — quantification under conditions of heterogeneity, and the awareness that every instrument is a construction — is not resolved but continually renewed. Di Leo's contribution is to have demonstrated, across a remarkably broad empirical portfolio, that this tension is not a limitation of the quantitative social sciences but their most productive working condition.
 
 `;
 
     function parseMD(md) {
-      const result = { title: "", themes: [], biography: "" };
+      const result = { title: "", bibliometrics: null, themes: [], biography: "" };
       const normalized = md.replace(/\r\n/g, "\n");
 
       // 1. Extract Author Name
       const titleMatch = normalized.match(/^#\s+(.+)$/m);
       if (titleMatch) {
-        result.title = titleMatch[1].replace(/^Narrative CV:\s*/i, "").trim();
+        result.title = titleMatch[1].replace(/^(Academic\s+)?Narrative\s+CV:\s*/i, "").trim();
       }
 
-      // 2. Split on the hr separator (---) dividing themes and biography
-      const hrIndex = normalized.indexOf("\n---\n");
-      const themeSection = hrIndex !== -1 ? normalized.slice(0, hrIndex) : normalized;
-      const bioSection = hrIndex !== -1 ? normalized.slice(hrIndex + 5) : "";
+      // 2. Extract Bibliometric Overview if present
+      const bibMatch = normalized.match(/##\s+Bibliometric Overview([\s\S]*?)(?=\n##|\n---|$)/i);
+      if (bibMatch) {
+        const bibText = bibMatch[1];
+        const pubsMatch = bibText.match(/\*\*Total Publications Analyzed\*\*:\s*([^\n]+)/i);
+        const timespanMatch = bibText.match(/\*\*Publication Timespan\*\*:\s*([^\n]+)/i);
+        const venuesMatch = bibText.match(/\*\*Unique Journals \/ Venues\*\*:\s*([^\n]+)/i);
 
-      // 3. Parse Themes
+        const journals = [];
+        const journalLines = bibText.match(/^\s*-\s*\*\*([^*]+)\*\*\s*\(([^)]+)\)/gm);
+        if (journalLines) {
+          journalLines.forEach(line => {
+            const m = line.match(/^\s*-\s*\*\*([^*]+)\*\*\s*\(([^)]+)\)/);
+            if (m) {
+              journals.push({ name: m[1].trim(), count: m[2].trim() });
+            }
+          });
+        }
+
+        result.bibliometrics = {
+          totalPubs: pubsMatch ? pubsMatch[1].trim() : "",
+          timespan: timespanMatch ? timespanMatch[1].trim() : "",
+          uniqueVenues: venuesMatch ? venuesMatch[1].trim() : "",
+          journals: journals
+        };
+      }
+
+      // 3. Extract Theme Section and Biography Section
+      const themeStart = normalized.indexOf("## Thematic Research Areas");
+      const hrIndex = normalized.indexOf("\n---\n");
+
+      let themeSection = "";
+      let bioSection = "";
+
+      if (themeStart !== -1) {
+        if (hrIndex !== -1 && hrIndex > themeStart) {
+          themeSection = normalized.slice(themeStart, hrIndex);
+          bioSection = normalized.slice(hrIndex + 5);
+        } else {
+          themeSection = normalized.slice(themeStart);
+        }
+      } else {
+        themeSection = hrIndex !== -1 ? normalized.slice(0, hrIndex) : normalized;
+        bioSection = hrIndex !== -1 ? normalized.slice(hrIndex + 5) : "";
+      }
+
+      // 4. Parse Themes
       const themeBlocks = themeSection.split(/^###\s+/m).slice(1);
       result.themes = themeBlocks.map(block => {
         const lines = block.split("\n");
@@ -793,11 +1076,24 @@ What unifies these diverse contributions is a commitment to **pragmatic, policy-
         return { name, description, keywords, pubs };
       });
 
-      // 4. Biography section: remove the leading ## Academic Biography heading if present
+      // 5. Biography section: remove the leading ## Academic Biography heading if present
       let bioBody = bioSection.replace(/^##\s+Academic Biography\s*\n/m, "").trim();
       result.biography = bioBody;
 
       return result;
+    }
+
+    function toggleVenues() {
+      const list = document.getElementById("venues-list");
+      const btn = document.getElementById("toggle-venues-btn");
+      if (!list || !btn) return;
+      if (list.style.display === "none" || !list.style.display) {
+        list.style.display = "flex";
+        btn.classList.add("open");
+      } else {
+        list.style.display = "none";
+        btn.classList.remove("open");
+      }
     }
 
     function render(md) {
@@ -807,6 +1103,34 @@ What unifies these diverse contributions is a commitment to **pragmatic, policy-
       const name = data.title || "Academic Profile";
       document.getElementById("author-name").textContent = name;
       document.title = "ScientoAI — " + name;
+
+      // Render Bibliometrics in Profile Card
+      const bibContainer = document.getElementById("bib-overview-container");
+      if (data.bibliometrics && (data.bibliometrics.totalPubs || data.bibliometrics.journals.length > 0)) {
+        const b = data.bibliometrics;
+        bibContainer.style.display = "block";
+        bibContainer.className = "cv-bib-section";
+        bibContainer.innerHTML = `
+          <div class="cv-bib-stats">
+            ${b.totalPubs ? `<div class="cv-bib-stat-pill"><span>📄</span> Total Publications: <strong>${escHtml(b.totalPubs)}</strong></div>` : ""}
+            ${b.timespan ? `<div class="cv-bib-stat-pill"><span>📅</span> Timespan: <strong>${escHtml(b.timespan)}</strong></div>` : ""}
+            ${b.uniqueVenues ? `<div class="cv-bib-stat-pill"><span>🏛</span> Unique Venues: <strong>${escHtml(b.uniqueVenues)}</strong></div>` : ""}
+          </div>
+          ${b.journals.length > 0 ? `
+            <div class="cv-bib-venues-wrap">
+              <button type="button" class="cv-bib-toggle" id="toggle-venues-btn" onclick="toggleVenues()">
+                <span>View Journals & Venues (${b.journals.length})</span>
+                <svg class="chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="cv-bib-venues-list" id="venues-list" style="display:none;">
+                ${b.journals.map(j => `<span class="cv-venue-chip"><span>${escHtml(j.name)}</span> <span class="chip-count">${escHtml(j.count)}</span></span>`).join("")}
+              </div>
+            </div>
+          ` : ""}
+        `;
+      } else {
+        bibContainer.style.display = "none";
+      }
 
       // Render Themes Stack (Full-width vertical layout)
       const grid = document.getElementById("themes-grid");
