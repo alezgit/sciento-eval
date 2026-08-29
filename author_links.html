@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ScientoAI Evaluation — Author Links Dashboard (Local)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bordeaux-main: #6B0F1A;
+      --bg-app: #F8F9FA;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg-app);
+      color: #1D1D1F;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 32px;
+      border-radius: 16px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+    }
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      color: var(--bordeaux-main);
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+    }
+    p.sub {
+      color: #6E6E73;
+      margin-bottom: 24px;
+      font-size: 0.95rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+    }
+    th, td {
+      padding: 14px 16px;
+      text-align: left;
+      border-bottom: 1px solid #EAECEF;
+    }
+    th {
+      background: #FDF4F5;
+      color: var(--bordeaux-main);
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .author-name {
+      font-size: 0.85rem;
+      color: #6E6E73;
+    }
+    .btn {
+      display: inline-block;
+      padding: 6px 14px;
+      background: var(--bordeaux-main);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: opacity 0.2s;
+    }
+    .btn:hover {
+      opacity: 0.9;
+    }
+    .na {
+      color: #aaa;
+      font-size: 0.85rem;
+    }
+    .hint {
+      margin-top: 24px;
+      padding: 12px 16px;
+      background: #f0f3f6;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>ScientoAI Evaluation — Link Directory</h1>
+    <p class="sub">Use these links to test pages locally or copy the direct GitHub Pages URLs into your Google Form sections.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Author Identifier</th>
+          <th>Section 1 Link (Doc A)</th>
+          <th>Section 2 Link (Doc B)</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td>
+            <strong>author1</strong>
+            <div class="author-name">SImone Di Leo</div>
+          </td>
+          <td><a href="author1_A.html" target="_blank" class="btn">Open Document A</a></td>
+          <td><a href="author1_B.html" target="_blank" class="btn">Open Document B</a></td>
+        </tr>
+        
+      </tbody>
+    </table>
+    <div class="hint">
+      💡 <strong>GitHub Pages Deployment Tip:</strong> Once pushed to your GitHub Pages repository, these links will be located at <code>https://&lt;username&gt;.github.io/&lt;repo&gt;/filename.html</code>.
+    </div>
+  </div>
+</body>
+</html>
