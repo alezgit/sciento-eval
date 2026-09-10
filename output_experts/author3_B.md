@@ -1,0 +1,432 @@
+# Academic Narrative CV: Idiano D'Adamo
+
+_Generated on: 2026-09-10_
+
+## Bibliometric Overview
+
+- **Total Publications Analyzed**: 56
+- **Publication Timespan**: 2025 – 2026
+- **Unique Journals / Venues**: 37
+- **Journal List**:
+  - **Business Strategy and the Environment** (6 papers)
+  - **Sustainable Development** (5 papers)
+  - **Energy Policy** (3 papers)
+  - **Waste Management and Research** (3 papers)
+  - **Energy Nexus** (2 papers)
+  - **Euro-Mediterranean Journal for Environmental Integration** (2 papers)
+  - **IEEE Engineering Management Review** (2 papers)
+  - **International Journal of Energy Economics and Policy** (2 papers)
+  - **Sustainability (Switzerland)** (2 papers)
+  - **Sustainable Production and Consumption** (2 papers)
+  - **Advanced Sustainable Systems** (1 paper)
+  - **Applied Economics Letters** (1 paper)
+  - **Applied Energy** (1 paper)
+  - **Business Strategy and Development** (1 paper)
+  - **Clean Technologies** (1 paper)
+  - **Corporate Social Responsibility and Environmental Management** (1 paper)
+  - **Current Opinion in Green and Sustainable Chemistry** (1 paper)
+  - **Decision Analytics Journal** (1 paper)
+  - **Discover Sustainability** (1 paper)
+  - **Economics and Environment** (1 paper)
+  - **Energy** (1 paper)
+  - **Energy Reports** (1 paper)
+  - **Energy, Sustainability and Society** (1 paper)
+  - **Environment, Development and Sustainability** (1 paper)
+  - **Frontiers in Sustainability** (1 paper)
+  - **Global Journal of Flexible Systems Management** (1 paper)
+  - **Innovation and Green Development** (1 paper)
+  - **International Environmental Agreements: Politics, Law and Economics** (1 paper)
+  - **Journal of Cleaner Production** (1 paper)
+  - **Journal of Environmental Management** (1 paper)
+  - **Journal of Knowledge Management** (1 paper)
+  - **Journal of Strategy and Management** (1 paper)
+  - **Scientific Reports** (1 paper)
+  - **Springer Proceedings in Mathematics and Statistics** (1 paper)
+  - **Sustainable Materials and Technologies** (1 paper)
+  - **Sustainable Operations and Computers** (1 paper)
+  - **Utilities Policy** (1 paper)
+
+## Thematic Research Areas
+
+### Techno-Economic Modeling of Community Solar-Storage
+Unifies discounted cash flow modeling and econometric risk simulation (LASSO/Monte Carlo) to evaluate the financial viability and social equity metrics of decentralized solar-plus-storage deployment in renewable energy communities. Integrates operational self-consumption optimization with policy sensitivity assessments.
+
+**Keywords**: renewable energy communities, battery energy storage (bes), self-consumption optimization, discounted cash flow (npv analysis), lasso regression and sensitivity analysis
+
+**Key Publications**:
+- Green restaurants: An economic assessment of solar photovoltaics and energy storage systems (2026)
+- Economic assessment of battery energy storage in industrial applications: Policy support and self-consumption effects (2026)
+- Energy policy and citizens’ perceptions: The role of PV+BES systems in driving a sustainable energy transition (2026)
+- Renewable energy communities and energy poverty: Social and policy insights from empirical research in Italy (2026)
+- Fostering sustainable economic development and mitigating energy poverty through renewable energy communities (2026)
+- Towards SDG 7: A Quantitative Sustainability Framework for Evaluating PV+BES Systems in the Low-Carbon Transition (2026)
+- Renewable energy communities for sustainable cities: Economic insights into subsidies, market dynamics and benefits distribution (2025)
+- Socioeconomic dimensions of renewable energy communities: Pathways to collective well-being (2025)
+
+### Life-Cycle Metrics for Wastewater Circularity
+Integrates material flow metrics and life cycle assessment (LCA) indicators to evaluate resource recovery efficiency and strategic material security within municipal and industrial wastewater management. Groups CE indicators across reduction, reclamation, reuse, recycling, recovery, and rethink domains.
+
+**Keywords**: resource and energy recovery indicators, raw material security, rethink/lca metrics, strategic policy planning, sectoral ce transition assessment
+
+**Key Publications**:
+- Environmental Indicators for Assessment of Circular Economy (CE) Implementation in the Water and Wastewater Sector (2025)
+
+### Geopolitical Economics of Circular Mineral Chains
+Combines international trade vulnerability metrics with circular material flows to analyze how domestic processing policies and export restrictions enhance supply resilience for critical mineral value chains like copper. Evaluates trade trade-offs between Chile and primary refining destinations.
+
+**Keywords**: domestic refining of copper concentrates, global mineral value chain resilience, concentrate export restrictions, transportation carbon footprint, geopolitical import dependency
+
+**Key Publications**:
+- A Flexible and Circular Management of Copper in Chile: New Perspectives Toward Sustainable Development (2025)
+
+### Behavioral Economics of Energy Community Adoption
+Applies behavioral economics frameworks—specifically present bias, loss aversion, and psychological framing—to diagnose citizen inertia and design targeted choice architecture for participating in renewable energy communities.
+
+**Keywords**: behavioral inertia in energy transition, present bias and loss aversion, nudging and strategic framing, environmental altruism, citizen adoption of recs
+
+**Key Publications**:
+- Motivational and Behavioural Determinants of Participation in Renewable Energy Communities (2026)
+
+### Techno-Economic Optimization of E-Waste Recovery
+Merges metallurgical process engineering with financial discounted cash flow analysis under commodity price volatility to determine the profitability threshold of urban mining for waste printed circuit boards. Highlights precious metal yield and gold price sensitivity.
+
+**Keywords**: urban mining of e-waste, wpcb recycling process optimization, precious metal yield, gold market price volatility, project net present value (npv)
+
+**Key Publications**:
+- Circular economy and profitability: A techno-economic analysis of precious metal recovery from waste printed circuit boards (2026)
+
+### Spatial Governance of Vehicle Waste Recycling
+Employs spatial performance clustering and macroeconomic benchmarking to assess how European regulatory frameworks and regional governance structures drive closed-loop recycling for end-of-life vehicles. Isolates GDP per capita thresholds that differentiate advanced recycling capabilities.
+
+**Keywords**: elv recycling performance clustering, gdp per capita threshold (€35,000), european circular economy policies, advanced treatment technologies, coordinated stakeholder governance
+
+**Key Publications**:
+- A review on European sustainable practices in end-of-life vehicles management (2025)
+
+### Corporate Governance and Embedded Information Policy
+Bridges enterprise management theory and information policy to investigate how leadership commitments and regulatory mandates embed corporate social responsibility disclosures into core corporate governance frameworks.
+
+**Keywords**: embedded sustainability information policy, leadership commitment & regulatory mandates, csr communication mechanisms, corporate governance & stakeholder alignment, strategic enterprise objectives
+
+**Key Publications**:
+- SUSTAINABILITY AS PART OF THE INFORMATION POLICY OF ENTERPRISES: AN ASSESSMENT (2026)
+
+### Fiscal Incentives for Urban Photovoltaic Prosumers
+Combines urban prosumer discounted cash flow modeling with policy counterfactuals to assess how tax credit mechanisms and tariff structures affect the economic break-even points of distributed building-integrated solar and storage installations.
+
+**Keywords**: prosumer investment viability, 70% 10-year tax deduction incentive policy, self-consumption and avoided cost rates, residential pv system npv, public infrastructure pv profitability
+
+**Key Publications**:
+- A distributed and sustainable model for future cities: A profitability analysis of integrated photovoltaic systems with storage under different incentive policies (2025)
+- Economic Analysis, Innovative Educational Models and Pragmatic Sustainability: The Case Study of a Photovoltaic System on a Public Building (2025)
+
+### Multi-Criteria Modeling of Sustainable Infrastructure
+Integrates Technique for Order Preference by Similarity to Ideal Solution (TOPSIS) multi-criteria evaluation with educational knowledge management to design and optimize sustainable urban school infrastructure under contingent valuation constraints.
+
+**Keywords**: topsis decision analysis, optimal multi-criteria school model, willingness to pay premium for sustainable infrastructure, participatory pedagogy & knowledge management, sdg 11 urban and social transitions
+
+**Key Publications**:
+- Sustainable Schools and Knowledge Management: Driving Urban and Social Transitions for Sustainable Development (2026)
+
+### Hyperspectral Characterization for Space Recycling
+Bridges optical material physics and closed-loop process engineering by applying near-infrared hyperspectral imaging (HSI) to achieve non-destructive, automated material sorting for orbital and off-earth waste recovery systems.
+
+**Keywords**: near-infrared hyperspectral imaging (hsi), automated non-destructive material sorting, off-earth waste valorization frameworks, circular economy resource recovery efficiency, terrestrial circular economy models
+
+**Key Publications**:
+- Recycling-Oriented Characterization of Space Waste Through Clean Hyperspectral Imaging Technology in a Circular Economy Context (2025)
+
+### Entrepreneurial Strategy for Healthcare Retail Ecosystems
+Combines corporate consolidation theory with sustainable entrepreneurship models in the retail pharmacy sector to analyze how centralized holding structures build consumer trust and optimize spatial healthcare distribution.
+
+**Keywords**: pharmacy holding aggregation models, strategic sustainable entrepreneurship, consumer trust in corporate healthcare, perceived pricing affordability and product availability, sdg 3 (good health and well-being)
+
+**Key Publications**:
+- Management of pharmacy holdings and consumer behaviour: entrepreneurship strategies for sustainable ecosystems (2026)
+
+### Infrastructure Corridors for Critical Material Resilience
+Evaluates regional spatial planning and cross-border transport corridors as strategic instruments for securing critical raw material supply chains and fostering economic sovereignty in resource-rich developing nations.
+
+**Keywords**: critical raw material (crm) supply chain resilience, resource-rich country empowerment, coordinated infrastructure investments, linear-to-circular industrial transition, integrated risk assessment framework
+
+**Key Publications**:
+- The Lobito corridor: A catalyst for international Cooperation, regional Growth, and sustainable supply chain development (2026)
+
+### Techno-Economics of Marine Electrodialytic Carbon Removal
+Merges electrodialytic ocean alkalinity enhancement process modeling with carbon credit option pricing to evaluate the financial feasibility of marine negative emission technologies utilizing thermal waste streams.
+
+**Keywords**: electrodialysis carbon dioxide removal, ocean alkalinity enhancement (oae) financial feasibility, thermal energy waste (tew) integration, carbon credit market volatility, negative emissions technology investment attractiveness
+
+**Key Publications**:
+- Economic Assessment of Ocean Alkalinity Enhancement Through Electrodialysis: The Role of Carbon Credits in Comparing Solar Energy and Thermal Waste Technologies (2026)
+
+### Regional Capital Allocation for Cohesion Policy
+Applies spatial econometric evaluation to state-level post-pandemic recovery funds to determine how targeted capital distribution mitigates North-South regional disparities and accelerates Sustainable Development Goal convergence.
+
+**Keywords**: next generation eu (ngeu) regional allocation, north-south economic divide, green revolution and ecological transition funding, territorial sustainability gaps, sdg 7 and sdg 9 target realization
+
+**Key Publications**:
+- Impact of regional investment on the sustainable development goals: A group analysis of economic and territorial development (2025)
+
+### Composite Indicator Analysis for Regional Benchmarking
+Synthesizes multi-criteria decision analysis (MCDA)—specifically min-max normalization and TOPSIS variants—to construct composite indicators that benchmark cross-national and sub-national sustainability progress across heterogeneous industrial sectors.
+
+**Keywords**: multicriteria decision analysis (mcda), aggregation methodology selection (min-max vs. topsis), national sdg performance benchmarking, regional competitiveness and disparities, dimensional result disaggregation
+
+**Key Publications**:
+- Advancing Sustainable Development Through Integrated Photovoltaic and Battery Energy Storage Systems in Commercial Buildings: A Strategic, Economic, and Environmental Perspective (2025)
+- A multiple criteria analysis approach for assessing regional and territorial progress toward achieving the Sustainable Development Goals in Italy (2025)
+- Indicator Assessment of Sustainable Development Goals: A Global Perspective (2025)
+- Sustainability and competitiveness: Economic analysis of a photovoltaic plant with storage in an Italian textile company (2025)
+- Advancing Business Strategy in End-Of-Life Management for the Fashion Industry (2025)
+- Evaluating sustainability in Europe with composite indicators (2025)
+
+### Institutional Adoption Metrics for Corporate Sustainability
+Examines the organizational drivers and perceived operational trade-offs governing how corporations adopt formal sustainability certifications and standardized reporting frameworks to align strategic positioning with institutional demands.
+
+**Keywords**: formal sustainability reporting, sustainability certifications, perceived operational and cost barriers, corporate strategic positioning, adoption of technically intensive environmental practices
+
+**Key Publications**:
+- From Data to Action: The Role of Reports and Certifications in Driving Corporate Sustainability (2026)
+
+### Socio-Ecological Governance of Urban Forestry
+Combines socio-ecological transition frameworks with qualitative governance theory to evaluate how institutional trust and citizen normative values condition social acceptance of urban forestry and biomass regeneration programs.
+
+**Keywords**: acceptance of urban forestry interventions, socio-ecological territorial regeneration, differentiated governance narratives, institutional trust in green transitions, citizen normative value orientation
+
+**Key Publications**:
+- Citizens in the green transition: perceptions of urban forestry and biomass use, and strategies for a sustainable future (2025)
+
+### Organizational Governance for Educational Sustainability
+Integrates cognitive knowledge-action frameworks into institutional governance theory to evaluate how secondary and tertiary school leadership incorporates Sustainable Development Goal literacy into administrative planning and student environmental behaviors.
+
+**Keywords**: sdg knowledge and literacy, school management decision-making, institutional sdg commitment, pro-environmental attitude and behavior, educational model integration
+
+**Key Publications**:
+- Knowledge of the SDGs as a Driver of Sustainable Attitudes in Schools (2026)
+
+### Scientometric Analysis of Space Closed-Loop Ecosystems
+Uses systematic literature mapping (PRISMA/VOSviewer) and technology readiness synthesis to map emerging technical domains in off-earth circular manufacturing, orbital debris recovery, and autonomous life-support bioreactors.
+
+**Keywords**: prisma systematic review + vosviewer mapping, orbital debris conceptualization, in-space manufacturing (ism) feedstock, closed-loop technologies (bioreactors, additive manufacturing), deep space habitation autonomy
+
+**Key Publications**:
+- Circular space economy: A review of innovative sustainable waste management (2026)
+
+### Welfare-Optimized Redistribution in Energy Poverty
+Formulates game-theoretic and agent-based simulation models to design differentiated incentive redistribution and dynamic tariff mechanisms that alleviate energy poverty within community power networks.
+
+**Keywords**: differentiated pricing and incentive allocation, s-rec simulation modeling, social welfare optimisation in energy networks, household energy poverty thresholds, tailored incentive redistribution mechanisms
+
+**Key Publications**:
+- Renewable energy communities and energy poverty: A novel benefit-sharing model based on differentiated pricing and incentive allocation (2026)
+
+### Data Envelopment Analysis of Packaging Efficiency
+Pairs Data Envelopment Analysis (DEA) with multi-criteria decision modeling to benchmark the eco-efficiency of European waste packaging regulations and material substitution strategies.
+
+**Keywords**: data envelopment analysis (dea) integrated with mcda, waste packaging management benchmarking, cross-national circular efficiency heterogeneity, natural fiber material substitution, eu policy harmonization
+
+**Key Publications**:
+- Managing waste packaging for a sustainable future: a strategic and efficiency analysis in the European context (2026)
+
+### Experimental Economics of Circular Consumer Choice
+Utilizes experimental economic design and discrete choice modeling to quantify how Pigouvian environmental taxes and targeted subsidies alter consumer price sensitivity and willingness-to-pay premiums for circular business strategies.
+
+**Keywords**: circular premium perception, subsidies vs carbon taxes, price sensitivity barrier, consumer purchasing behavior shift, experimental economic design
+
+**Key Publications**:
+- Environmental Taxes and Subsidies for Sustainability: Experimental Evidence on Consumer Preferences for Business Strategy (2026)
+
+### Systems Engineering Architectures for Space Recycling
+Employs Model-Based Systems Engineering (MBSE) formalisms to conceptualize circular extra-terrestrial logistical architectures, defining system requirements for autonomous in-space recycling and manufacturing facilities.
+
+**Keywords**: model-based systems engineering (mbse), extra-terrestrial manufacturing architecture (efesto), in-space manufacturing and recycling, service-oriented orbital economy, terrestrial launcher constraints
+
+**Key Publications**:
+- The Enhanced Factory for Extra-Terrestrial Space Technology Operations: Conceptualization and Scenarios’ Definition (2025)
+
+### Eco-Humanist versus Eco-Modernist Sustainability Theory
+Constructs a philosophical theoretical framework evaluating the ideological tension between top-down eco-modernist technological optimism and bottom-up eco-humanist governance models across regional environmental initiatives.
+
+**Keywords**: eco-humanism vs eco-modernism ideological tension, eco-modernist technological optimism, eco-humanist ethical and community considerations, precision agriculture & local green infrastructure, interdisciplinary governance and inclusive education
+
+**Key Publications**:
+- Sustainable development at the crossroads: Navigating eco-humanism and eco-modernism (2025)
+
+### Multi-Criteria Modeling of Digital Product Passports
+Applies hybrid Multi-Criteria Decision-Making (AHP-TOPSIS) to model how Digital Product Passports (DPP) overcome information asymmetry and drive value creation across digitized, circular supply chains.
+
+**Keywords**: digital product passport (dpp), twin transition (digitalization + circularity), hybrid mcdm (ahp-topsis), supply chain transparency, sdg 12 (responsible consumption and production)
+
+**Key Publications**:
+- Fashion, transparency, and sustainability: the role of the digital product passport (2026)
+- Environmental Concerns in the Fashion Industry: A Twin Transition With the Digital Product Passport (2025)
+- Strategy and Development in Pharmacy Holding Companies: Enhancing Sustainable Lifestyle and Unlocking New Business Opportunities (2025)
+- An Integrated Business Strategy for the Twin Transition: Leveraging Digital Product Passports and Circular Economy Models (2025)
+- Integrating knowledge management and digital product passports to foster sustainable and collaborative ecosystems (2026)
+
+### Behavioral Demography of Consumer E-Waste Recovery
+Integrates psychographic segmentation and generational demographic analysis to evaluate consumer motivation, trust, and execution barriers in returning electronics for urban refurbishment and recycling.
+
+**Keywords**: circular e-waste motivations, proper e-waste disposal execution, refurbished market perception, generational demographics, targeted economic incentives
+
+**Key Publications**:
+- From Awareness to Action: Consumer Behaviour, Attitudes and Business Strategy in Sustainable and Circular Electronic Devices (2026)
+
+### Contingent Valuation of Second-Hand Fashion Markets
+Deploys microeconomic contingent valuation methodologies to isolate explicit economic willingness-to-pay drivers and bridge the attitude-behavior gap in consumer adoption of second-hand circular fashion assets.
+
+**Keywords**: second-hand apparel wtp, attitude-behavior gap, explicit economic preferences, willingness to pay for green/circular textiles, perceived functional quality and versatility
+
+**Key Publications**:
+- Determinants of consumers’ hypothetical willingness to pay for circular fashion (2026)
+
+### Digital Traceability Economics for Product Lifecycles
+Combines information asymmetry theory with corporate regulatory economics to measure how real-time digital product passport (DPP) data structures convert compliance traceability into consumer willingness-to-pay premiums.
+
+**Keywords**: dpp-enabled traceability, information asymmetry, consumer willingness to pay premium, corporate regulatory compliance, lifecycle asset management
+
+**Key Publications**:
+- Digital product passports for cleaner production: Economic evidence from producers and consumers in the fashion industry (2026)
+
+### Stochastic Simulation of Industrial Solar Resilience
+Uses Monte Carlo risk simulation and scenario modeling to evaluate the long-term capital resilience, discounted payback periods, and policy-dependent financial yields of industrial-scale solar photovoltaic investments.
+
+**Keywords**: monte carlo and scenario simulations, long-term financial resilience, capital grant subsidies, discounted payback period, co2 avoidance monetisation
+
+**Key Publications**:
+- A policy-oriented framework for assessing the economic sustainability of industrial photovoltaic investments (2026)
+
+### Socio-Techno-Economics of Hydrogen Siting Dynamics
+Integrates Levelized Cost of Hydrogen (LCOH) engineering models with socio-political spatial analysis to solve the structural tension between optimal techno-economic wind-electrolysis siting and localized public NIMBYism resistance.
+
+**Keywords**: levelized cost of hydrogen (lcoh), integrated wind-electrolysis operational architecture, local facility siting resistance (nimbyism), public knowledge deficits on hydrogen taxonomy, citizen acceptance of infrastructure siting
+
+**Key Publications**:
+- Green hydrogen as a sustainable operations strategy: A socio-economic perspective (2025)
+
+### Socio-Economic Feasibility of Urban Biomethane Systems
+Merges spatial proximity modeling, contingent valuation, and cash-flow break-even analysis to assess social acceptance and financial sensitivity under shifting tariff structures for biomethane recovery from organic waste.
+
+**Keywords**: organic fraction of municipal solid waste (ofmsw) valorization, urban biomethane financial feasibility, incentive tariff level (0.732 vs 0.627 €/m³), social acceptance of biomethane infrastructure, willingness-to-pay (wtp) premium
+
+**Key Publications**:
+- Social acceptance and economic impacts of biomethane: A resource for energy sustainability (2025)
+- The Economics and Policy of Biomethane: A Pragmatic Approach to Renewable Energy and Waste Valorization (2025)
+
+### Socio-Economic Dynamics of Prosumer Market Participation
+Investigates citizen prosumer willingness and market entry behavior within liberalized energy markets, examining how tariff structures, price mechanics, and protective regulation interact with social acceptance.
+
+**Keywords**: social acceptance of prosumerism, preference for protective regulatory frameworks, financial price mechanics (sale/purchase/exchange prices), citizen inclination to participate, prior rec concept knowledge
+
+**Key Publications**:
+- Energy Communities Toward Sustainable Development: The Role of Economic Factors in a Social Analysis (2025)
+
+### Capital Asset Pricing for Offshore Wind Infrastructure
+Applies discounted cash flow analytics (LCOE, IRR, DPBT) and risk-adjusted capital pricing models to evaluate financial feasibility and policy de-risking strategies for large-scale offshore wind energy projects.
+
+**Keywords**: discounted cash flow metrics (irr, dpbt, lcoe), offshore wind net present value (npv), capacity factor and energy selling price, de-risking renewable capital investments, sdg 7 and national energy independence
+
+**Key Publications**:
+- Exploring the economic feasibility of offshore wind energy for sustainable development (2025)
+
+### Human-Digital Competency Modeling for Supply Traceability
+Integrates multi-criteria decision-making frameworks (AHP-TOPSIS-VIKOR) with organizational skill taxonomies to design human-in-the-loop competencies required for operating Digital Product Passports in consumer supply chains.
+
+**Keywords**: multi-criteria decision making (ahp-topsis-vikor), human competency framework, digital product passport implementation, consumer digital literacy, brand trust and value-driven purchasing
+
+**Key Publications**:
+- Bridging digital tools and human skills: A sustainable competence framework for implementing digital product passports in the cosmetics industry (2026)
+
+### Institutional Governance of Municipal Energy Transitions
+Utilizes public administration and institutional capacity frameworks to examine how municipal technical expertise and public-community synergies accelerate the legal and infrastructural deployment of distributed renewable energy networks.
+
+**Keywords**: technical-scientific expertise in public administration, public administration as a driver of sustainability, public-community institutional synergy, diffusion of distributed renewable infrastructures, institutional capacity for sustainable governance
+
+**Key Publications**:
+- Public administration as a driver of sustainability within energy communities (2026)
+
+### System Dynamics Modeling for Quantitative SDG Evaluation
+Applies quantitative system dynamics and interdisciplinary multi-indicator aggregation to map cross-sector feedback loops and evaluate national evidence-based policy trade-offs across interconnected Sustainable Development Goals.
+
+**Keywords**: sdg system dynamics assessment, multi-indicator metrics, interdisciplinary quantitative methodologies, evidence-based sustainability policy
+
+**Key Publications**:
+- A Quantitative Analysis and Interdisciplinary Approach to the Sustainable Development Goals (2026)
+
+### Consumer Behavioral Shifts Toward Circular Fashion
+Evaluates psychological consumer habit formation and shopping orientation shifts, measuring how targeted educational campaigns alter consumer willingness to transition from linear fast fashion to circular re-use markets.
+
+**Keywords**: transition from fast to slow/circular fashion, fast fashion shopping orientation, second-hand market adoption, environmental impact awareness campaigns
+
+**Key Publications**:
+- How consumer shopping habits affect willingness to embrace sustainable fashion (2025)
+
+---
+
+## Academic Biography
+
+# Academic Narrative CV: Professor Idiano D'Adamo
+
+## Pragmatic Sustainability: Quantitative Techno-Economics and Socio-Institutional Governance
+
+Professor Idiano D'Adamo has established a comprehensive research program at the intersection of techno-economic assessment, circular economy engineering, applied microeconomics, and socio-institutional decision analysis. His work systematically addresses the grand systemic challenge of transitioning toward a low-carbon, resource-efficient, and socially equitable economy. Anchored in the United Nations Sustainable Development Goals (SDGs)—with particular focus on SDG 7 (Affordable and Clean Energy), SDG 11 (Sustainable Cities and Communities), and SDG 12 (Responsible Consumption and Production)—D'Adamo's scholarship moves beyond abstract environmental principles by developing quantitative decision-support architectures. His analytical framework combines discounted cash flow (DCF) modeling, stochastic risk simulation, multi-criteria decision analysis (MCDA), structural econometric evaluation, and behavioral surveys to resolve the structural tensions between financial viability, technical feasibility, and societal acceptance across diverse economic sectors.
+
+Throughout his trajectory, D'Adamo's research demonstrates how technological innovations and policy instruments interact across micro-, meso-, and macro-economic scales. Rather than analyzing decarbonization technologies in isolation, his work models their real-world integration into commercial enterprises, residential communities, industrial value chains, and regional administrative structures. By evaluating how public subsidies, tax incentives, commodity price fluctuations, and behavioral biases shape individual and corporate decision-making, D'Adamo provides evidence-based pathways for aligning private economic rationales with broader public welfare imperatives.
+
+## Techno-Economics and Risk Simulations in Decentralized Renewable Transition
+
+At the core of D'Adamo's renewable energy research is a rigorous techno-economic modeling framework designed to evaluate the financial feasibility and risk profile of distributed clean energy technologies. A central focus is the integration of photovoltaic (PV) generation with battery energy storage systems (BES) across residential, commercial, and industrial contexts. In 'Green restaurants: An economic assessment of solar photovoltaics and energy storage systems' (2026), D'Adamo and his co-authors deploy discounted cash flow analysis, LASSO regression, break-even evaluation, and Monte Carlo risk simulations to examine energy-intensive catering operations in Italy. Their findings demonstrate that while standalone PV installations achieve robust economic profitability, integrated BES systems require targeted operational strategies to elevate self-consumption rates above critical break-even thresholds—specifically 22–25% with capital incentives and 30–35% without subsidies.
+
+This methodology extends into large-scale commercial and industrial applications where capital exposure and market volatility present distinct investment hurdles. In 'Economic assessment of battery energy storage in industrial applications: Policy support and self-consumption effects' (2026), D'Adamo evaluates a 1500 kWh BES paired with a 1 MW PV system at a major pharmaceutical plant, demonstrating through stochastic simulations that demand management and self-consumption optimization exert a more decisive impact on net present value (NPV) resilience than equivalent capital expenditure reductions. Complementing this, 'A policy-oriented framework for assessing the economic sustainability of industrial photovoltaic investments' (2026) models a 1 MW industrial PV plant, illustrating that a 45% capital grant dramatically reduces the discounted payback period from over seven years to under two years while monetizing avoided CO2 emissions to yield tens of thousands of euros in environmental value.
+
+In urban residential settings, D'Adamo investigates the counterfactual impact of fiscal policy on distributed prosumer adoption. In 'A distributed and sustainable model for future cities: A profitability analysis of integrated photovoltaic systems with storage under different incentive policies' (2025), he evaluates the financial yields of residential PV+BES systems, identifying a proposed 70% ten-year tax deduction policy as an optimal driver for urban decarbonization. The framework is further extended to public infrastructure in 'Economic Analysis, Innovative Educational Models and Pragmatic Sustainability: The Case Study of a Photovoltaic System on a Public Building' (2025), which quantifies the economic yields of PV systems installed on secondary schools while leveraging the project as an applied pedagogical tool for university problem-solving.
+
+Beyond terrestrial solar-plus-storage, D'Adamo applies capital asset pricing, real options, and levelized cost metrics to evaluate complex alternative energy carrier architectures. In 'Green hydrogen as a sustainable operations strategy: A socio-economic perspective' (2025), he models an integrated wind-electrolysis green hydrogen facility in Southern Italy, establishing a baseline levelized cost of hydrogen (LCOH) of 3.60 €/kg and identifying plant capacity factor as the primary economic determinant. In 'The Economics and Policy of Biomethane: A Pragmatic Approach to Renewable Energy and Waste Valorization' (2025), D'Adamo examines organic waste valorization via urban biomethane production, proving that while a 250 m³/h plant achieves a robust NPV of 1.635 million € under current tariffs, profitability drops from 86% to 27% if incentive tariffs decline from 0.732 to 0.627 €/m³. In utility-scale infrastructure, 'Exploring the economic feasibility of offshore wind energy for sustainable development' (2025) demonstrates the economic viability of offshore wind farms with NPVs ranging from 195 to 1324 €/kW, while 'Economic Assessment of Ocean Alkalinity Enhancement Through Electrodialysis: The Role of Carbon Credits in Comparing Solar Energy and Thermal Waste Technologies' (2026) evaluates marine negative emission technologies, proving that thermal energy waste integration achieves superior financial robustness compared to solar power under carbon credit price volatility.
+
+## Social Welfare, Energy Equity, and Behavioral Dynamics in Energy Communities
+
+D'Adamo's techno-economic models logically bridge into the socio-economic and behavioral dimensions governing citizen participation in Renewable Energy Communities (RECs). Recognizing that technical efficiency and financial returns are insufficient without social acceptance and equitable benefit distribution, D'Adamo investigates how citizen habits, psychological framing, and income disparities shape community energy transitions. In 'Motivational and Behavioural Determinants of Participation in Renewable Energy Communities' (2026), he applies behavioral economic frameworks to empirical survey data, isolating present bias and loss aversion as critical friction points that hinder citizen participation, while demonstrating that strategic nudging and informational framing significantly improve adoption rates.
+
+To address structural inequalities within energy networks, D'Adamo formulates welfare-optimized redistribution models designed to alleviate energy poverty. In 'Renewable energy communities and energy poverty: A novel benefit-sharing model based on differentiated pricing and incentive allocation' (2026), he introduces the S-REC simulation tool to model energy and financial flows across prosumers and vulnerable consumers. The study proves that tailored, differentiated incentive transfers are far more effective than uniform allocation schemes, successfully lowering vulnerable household energy expenditures below the 10% energy poverty threshold while sustaining high overall project profitability. This benefit-sharing architecture is further corroborated in 'Fostering sustainable economic development and mitigating energy poverty through renewable energy communities' (2026) and 'Renewable energy communities for sustainable cities: Economic insights into subsidies, market dynamics and benefits distribution' (2025), which detail how internal energy trading discounts (ranging from 18% to 30%) preserve project viability even in mature photovoltaic markets lacking direct capital subsidies.
+
+At the institutional and social governance level, D'Adamo investigates citizen preferences regarding market structures and public administration roles. In 'Energy Communities Toward Sustainable Development: The Role of Economic Factors in a Social Analysis' (2025) and 'Socioeconomic dimensions of renewable energy communities: Pathways to collective well-being' (2025), empirical evidence reveals that citizens prioritize protective regulatory frameworks over full energy market liberalization and increasingly favor allocating community financial surpluses to local public infrastructure and social welfare over individual cash payouts. The public sector's role as a catalyst is formalized in 'Public administration as a driver of sustainability within energy communities' (2026), which demonstrates that embedding technical-scientific expertise into municipal governance enhances civic trust and accelerates energy community deployment. This broader socio-ecological transition perspective is extended to urban forestry in 'Citizens in the green transition: perceptions of urban forestry and biomass use, and strategies for a sustainable future' (2025), where survey-driven cluster analysis reveals distinct pragmatic and value-oriented citizen profiles, highlighting the necessity of context-sensitive policy narratives for urban biomass and green infrastructure projects.
+
+## Circular Economy Value Chains: Techno-Economic Recovery and Critical Raw Material Security
+
+Moving from energy systems to material flows, D'Adamo constructs detailed physical and economic models to optimize circular material loops, secure critical raw material (CRM) supply chains, and evaluate urban mining processes. In high-value industrial metallurgy, 'Circular economy and profitability: A techno-economic analysis of precious metal recovery from waste printed circuit boards' (2026) provides a rigorous cash flow and process evaluation of an industrial recycling plant recovering base and precious metals from waste printed circuit boards (WPCBs). The analysis demonstrates an estimated NPV of 46.7 million €, establishing gold recovery rates (approaching 80%) and gold market price volatility as the primary profitability drivers, while proving that the project maintains financial resilience even under severe price stress tests.
+
+In international trade economics and supply chain security, D'Adamo addresses the geopolitical dependencies surrounding critical energy transition minerals. In 'A Flexible and Circular Management of Copper in Chile: New Perspectives Toward Sustainable Development' (2025), he combines supply chain flexibility methodologies with trade simulation models to analyze copper concentrate processing in Chile. The study demonstrates that restricting raw concentrate exports and expanding domestic refining capacity can reduce maritime transport carbon emissions by 15% while generating between 474 billion € and 699 billion € in national revenues, thereby insulating the domestic economy from geopolitical import dependencies. This strategic corridor analysis is expanded globally in 'The Lobito corridor: A catalyst for international Cooperation, regional Growth, and sustainable supply chain development' (2026), which evaluates the rail and port infrastructure linking Central African mining hubs to Atlantic ports as a critical axis for CRM supply chain resilience and equitable resource-rich nation development.
+
+At the regional and sectoral governance levels, D'Adamo formulates macro-level benchmarking models for industrial waste streams. In 'A review on European sustainable practices in end-of-life vehicles management' (2025), he conducts a systematic evaluation of European end-of-life vehicle (ELV) regulations, uncovering a distinct macroeconomic performance threshold at a GDP per capita of €35,000, above which advanced post-shredder treatment technologies and coordinated stakeholder governance drive closed-loop recycling performance. In municipal waste management, 'Environmental Indicators for Assessment of Circular Economy (CE) Implementation in the Water and Wastewater Sector' (2025) establishes a comprehensive indicator framework spanning reduction, reclamation, reuse, recycling, recovery, and rethink metrics for wastewater utilities. Similarly, 'Managing waste packaging for a sustainable future: a strategic and efficiency analysis in the European context' (2026) integrates Data Envelopment Analysis (DEA) with multi-criteria decision modeling to benchmark European packaging waste management, highlighting natural fiber material substitution as a premier strategic pathway for circular efficiency.
+
+## Digital Product Passports, Twin Transitions, and Circular Consumer Microeconomics
+
+To bridge physical supply chains with digital governance, D'Adamo's recent scholarship extensively explores the "twin transition"—the convergence of digital technology and circular economy business models. A major focal point is the Digital Product Passport (DPP) as a tool to overcome information asymmetry and drive consumer willingness-to-pay (WTP) premiums. In 'An Integrated Business Strategy for the Twin Transition: Leveraging Digital Product Passports and Circular Economy Models' (2025), D'Adamo applies hybrid Analytical Hierarchy Process (AHP) and TOPSIS decision models to reveal how DPP implementation in the textile sector enhances circular competitiveness by prioritizing material traceability, repair guidelines, and optimized end-of-life recycling pathways.
+
+This framework is systematically validated through empirical consumer economics and enterprise competency modeling. In 'Fashion, transparency, and sustainability: the role of the digital product passport' (2026) and 'Environmental Concerns in the Fashion Industry: A Twin Transition With the Digital Product Passport' (2025), survey data from over 500 consumers confirm that while baseline environmental awareness is variable, consumers demonstrate strong confidence in digital label transparency, exhibiting a statistically significant 17% WTP price premium for DPP-certified apparel. The microeconomic mechanics of DPP adoption are further detailed in 'Digital product passports for cleaner production: Economic evidence from producers and consumers in the fashion industry' (2026) and 'Integrating knowledge management and digital product passports to foster sustainable and collaborative ecosystems' (2026), which position the DPP as a cognitive infrastructure connecting open innovation with supply chain traceability. In human resource strategy, 'Bridging digital tools and human skills: A sustainable competence framework for implementing digital product passports in the cosmetics industry' (2026) applies AHP-TOPSIS-VIKOR decision algorithms to identify essential human-digital competencies required by corporate managers to operationalize DPP data structures effectively.
+
+In parallel, D'Adamo investigates the broader microeconomics of consumer choice, evaluating experimental policy incentives, e-waste recovery behavior, and fashion market segmentation. In 'Environmental Taxes and Subsidies for Sustainability: Experimental Evidence on Consumer Preferences for Business Strategy' (2026), an experimental economic choice model demonstrates that direct subsidies generate a stronger "circular premium" and shift consumer purchasing toward sustainable alternatives more effectively than punitive carbon taxes. In e-waste recovery, 'From Awareness to Action: Consumer Behaviour, Attitudes and Business Strategy in Sustainable and Circular Electronic Devices' (2026) uncovers severe execution gaps in electronic waste disposal, revealing that while 53% of households hoard obsolete electronics due to lack of disposal knowledge, targeted financial incentives and refurbished market transparency overcome consumer hesitation. In textile valuation, 'Determinants of consumers’ hypothetical willingness to pay for circular fashion' (2026) and 'How consumer shopping habits affect willingness to embrace sustainable fashion' (2025) isolate a persistent attitude-behavior gap: while consumers assign high environmental value to second-hand clothing, their explicit WTP is severely constrained by perceived functional quality and price sensitivity, whereas recycled and natural fiber textiles successfully capture positive circular price premiums. Extending these circular microeconomic principles to healthcare retail, 'Management of pharmacy holdings and consumer behaviour: entrepreneurship strategies for sustainable ecosystems' (2026) demonstrates how corporate pharmacy aggregation models build consumer trust and optimize spatial healthcare delivery towards SDG 3.
+
+## Multi-Criteria Decision Frameworks, Spatial Policy, and Institutional Sustainability
+
+Underpinning D'Adamo's broad domain-specific applications is a sophisticated suite of multi-criteria decision analysis (MCDA) methodologies, composite indicator frameworks, and quantitative policy evaluation models. To benchmark sustainability progress across heterogeneous geographic entities, D'Adamo develops robust normalization and aggregation protocols. In 'Evaluating sustainability in Europe with composite indicators' (2025) and 'Indicator Assessment of Sustainable Development Goals: A Global Perspective' (2025), he pairs min-max normalization with TOPSIS algorithms across Eurostat and Sustainable Development Report datasets, revealing high structural alignment in top-performing Nordic nations while highlighting persistent cross-national performance disparities between OECD and BRICS+ blocs.
+
+Applied at the sub-national level, 'A multiple criteria analysis approach for assessing regional and territorial progress toward achieving the Sustainable Development Goals in Italy' (2025) deploys a 61-indicator composite framework to quantify a persistent North-South sustainability divide in Italy (scoring 3.9 in the North versus 1.4 in the South on a 5-point scale). This spatial econometric evaluation is directly linked to post-pandemic capital allocation in 'Impact of regional investment on the sustainable development goals: A group analysis of economic and territorial development' (2025), which analyzes the distribution of 194.4 billion € in Next Generation EU (NGEU) recovery funds. The study proves that despite higher per-capita capital allocations to Southern Italian regions (€3,470 vs. €2,930), fiscal distribution alone has not closed territorial structural gaps, emphasizing the need for targeted, community-based development strategies.
+
+In corporate and organizational governance, D'Adamo examines how formal reporting systems and administrative commitments drive operational sustainability. In 'SUSTAINABILITY AS PART OF THE INFORMATION POLICY OF ENTERPRISES: AN ASSESSMENT' (2026) and 'From Data to Action: The Role of Reports and Certifications in Driving Corporate Sustainability' (2026), empirical data from enterprise surveys demonstrate that adopting formal sustainability certifications and ESG disclosure frameworks significantly lowers perceived operational cost barriers and accelerates the implementation of technically intensive environmental practices. In educational management, 'Sustainable Schools and Knowledge Management: Driving Urban and Social Transitions for Sustainable Development' (2026) and 'Knowledge of the SDGs as a Driver of Sustainable Attitudes in Schools' (2026) employ TOPSIS multi-criteria modeling to prove that institutional SDG literacy directly conditions pro-environmental student behaviors, establishing that public willingness-to-pay premiums (averaging 12.7%) support transitioning urban schools into participatory sustainability hubs for SDG 11.
+
+These empirical applications are grounded in overarching theoretical and quantitative frameworks. In 'Sustainable development at the crossroads: Navigating eco-humanism and eco-modernism' (2025), D'Adamo constructs a theoretical synthesis resolving the philosophical tension between top-down eco-modernist technological optimism and bottom-up eco-humanist community ethics, advocating for an integrated, human-centered approach to green technology deployment. Finally, in 'A Quantitative Analysis and Interdisciplinary Approach to the Sustainable Development Goals' (2026), he articulates an interdisciplinary quantitative framework that maps dynamic feedback loops across interconnected economic, environmental, and social targets, providing robust, evidence-based guidance for national policy formulation.
+
+## Off-Earth Resource Loops: Space Circular Economy and Closed-Loop Systems
+
+Expanding the boundaries of circular economy research, D'Adamo's recent work extends closed-loop process engineering and systems analysis to extra-terrestrial environments, off-earth manufacturing, and orbital waste management. In 'Recycling-Oriented Characterization of Space Waste Through Clean Hyperspectral Imaging Technology in a Circular Economy Context' (2025), D'Adamo and his co-authors introduce near-infrared (NIR) hyperspectral imaging (HSI) as a non-destructive, automated material sorting technology for space waste. The study achieves exceptional classification sensitivity and specificity (0.989 to 1.000) across complex space-grade polymers and textiles, establishing a technological foundation for automated waste sorting in microgravity.
+
+This experimental capability is embedded within broader systems engineering and scientometric architectures for space circularity. In 'Circular space economy: A review of innovative sustainable waste management' (2026), D'Adamo utilizes PRISMA systematic protocols and VOSviewer bibliometric mapping to synthesize the emerging field of orbital waste valorization. The study conceptualizes space debris and satellite scrap not as hazardous orbital waste, but as vital feedstock for in-space manufacturing (ISM) and bioregenerative life-support systems in deep space habitats. This theoretical and technical framework is formalized in 'The Enhanced Factory for Extra-Terrestrial Space Technology Operations: Conceptualization and Scenarios’ Definition' (2025), which employs Model-Based Systems Engineering (MBSE) formalisms to define operational scenarios and system requirements for the EFESTO orbital manufacturing facility, establishing a scalable model for a service-oriented, closed-loop space economy.
+
+## Methodological Synthesis: Toward Pragmatic and Equitable Decarbonization Architectures
+
+Professor Idiano D'Adamo's scientific trajectory reflects a unified, highly integrated research program that continuously reconciles quantitative economic modeling with social equity and environmental rigor. By refusing to isolate technical feasibility from human behavior, policy incentives, or institutional capacity, his work establishes pragmatic sustainability as a mathematically grounded and socially actionable discipline. From optimizing residential solar-storage systems and designing energy poverty redistribution algorithms to modeling critical mineral value chains, digital product passports, and extra-terrestrial recycling loops, D'Adamo has built an interdisciplinary framework capable of navigating complex socio-technical systems.
+
+Looking forward, D'Adamo's scientific horizon addresses the expanding complexities of the twin green and digital transitions. As global energy markets, industrial value chains, and regulatory directives evolve, his ongoing work advances multi-indicator decision models, real-time supply chain traceability, and welfare-optimized policy architectures. By bridging formal techno-economic analytics with empirical behavioral science and institutional governance, Professor D'Adamo continues to shape the international scholarship on sustainable development, offering robust, evidence-based pathways for achieving a decarbonized, circular, and socially just global economy.
+
